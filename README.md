@@ -135,3 +135,10 @@ jupyter notebook
 ```bash
 streamlit run app/titanic_app.py
 ```
+
+## Future Improvements
+
+- Hyperparameter tuning and model ensembling
+- Feature importance analysis and error analysis
+- Deploy Streamlit app online
+- Extend to more complex or real-world datasets
