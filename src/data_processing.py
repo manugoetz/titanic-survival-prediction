@@ -62,7 +62,7 @@ def plot_missing_values(df, show_zeros=False):
     plt.tight_layout()
     plt.show()
 
-def plot_binary_target_with_stats(df, target_col, class_labels):
+def plot_binary_target_with_stats(df, target_col):
     counts = df.value_counts().sort_index()
     total = counts.sum()
     
