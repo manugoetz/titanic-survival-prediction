@@ -1,5 +1,8 @@
 # Titanic Survival Prediction
 
+**Kaggle Challenge:** [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)  
+**Author:** Manuel Götz 
+
 Predicting passenger survival on the Titanic using machine learning. This project includes **data exploration, feature engineering, modeling**, and a **Streamlit app** for interactive predictions.
 
 ---
