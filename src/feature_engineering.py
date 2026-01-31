@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-from sklearn.base import BaseEstimator, TransformerMixin
 
 def get_famtype(df):
     df["FamSize"] = df["SibSp"] + df["Parch"] + 1
@@ -56,31 +55,18 @@ def extract_deck(df, cabin_col="Cabin"):
     
     return df
 
-class GroupMedianImputer(BaseEstimator, TransformerMixin):
-    def __init__(self, group_cols, target_col="Age"):
-        self.group_cols = group_cols
-        self.target_col = target_col
+def bin_fare(df):
+    bins = [-1, 0, 50, 100, 200, 300, float("inf")]
+    labels=["Zero", "Very Low", "Low", "Medium", "High", "Very High"]
 
-    def fit(self, X, y=None):
-        X = X.copy()
-        self.group_medians_ = (
-            X.groupby(self.group_cols)[self.target_col]
-            .median()
-        )
-        self.global_median_ = X[self.target_col].median()
-        return self
+    df["FareBinned"] = pd.cut(
+        df["Fare"],
+        bins=bins,
+        labels=labels
+    )
+    return df
 
-    def transform(self, X):
-        X = X.copy()
-
-        def fill_age(row):
-            if pd.isna(row[self.target_col]):
-                key = tuple(row[col] for col in self.group_cols)
-                return self.group_medians_.get(key, self.global_median_)
-            return row[self.target_col]
-
-        X[self.target_col] = X.apply(fill_age, axis=1)
-        return X[[self.target_col]].to_numpy()
-
-    def get_feature_names_out(self, input_features=None):
-        return np.array([self.target_col])
+def map_ticket(df, threshold=3):
+    ticket_counts = df["Ticket"].value_counts()
+    df["Ticket"] = df["Ticket"].apply(lambda x: x if ticket_counts[x] > threshold else "OTHER")
+    return df
