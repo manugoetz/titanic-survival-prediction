@@ -37,18 +37,18 @@ The Titanic dataset contains passenger information used to predict survival. The
 
 **Data Dictionary**<br>
 
-| **Variable**  | **Definition**                    | **Key**                                        |
-|---------------|-----------------------------------|------------------------------------------------|
-| survival      | Survival                          | 0 = No, 1 = Yes                                |
-| pclass        | Ticket class                      | 1 = 1st, 2 = 2nd, 3 = 3rd                      |
-| sex           | Sex                               |                                                |
-| Age           | Age in years                      |                                                |
-| sibsp         | # of siblings / spouses aboard    |                                                |
-| parch         | # of parents / children aboard    |                                                |
-| ticket        | Ticket number                     |                                                |
-| fare          | Passenger fare                    |                                                |
-| cabin         | Cabin number                      |                                                |
-| embarked      | Port of Embarkation               | C = Cherbourg, Q = Queenstown, S = Southampton |
+| **Variable**  | **Definition**                    | **Key**                                                          |
+|---------------|-----------------------------------|------------------------------------------------------------------|
+| survival      | Survival                          | 0 = No, 1 = Yes                                                  |
+| pclass        | Ticket class                      | 1 = 1st, 2 = 2nd, 3 = 3rd                                        |
+| sex           | Sex                               |                                                                  |
+| Age           | Age in years                      |                                                                  |
+| sibsp         | # of siblings / spouses aboard    |                                                                  |
+| parch         | # of parents / children aboard    |                                                                  |
+| ticket        | Ticket number                     |                                                                  |
+| fare          | Passenger fare                    |                                                                  |
+| cabin         | Cabin number                      |                                                                  |
+| embarked      | Port of Embarkation               | C = Cherbourg (FRA), Q = Queenstown (IRL), S = Southampton (ENG) |
 
 **Variable Notes**<br>
 **pclass**: A proxy for socio-economic status (SES)<br>
@@ -111,6 +111,7 @@ An interactive app allows users to **input passenger information** and receive a
 - Real-time predictions based on the trained model  
 
 App can be run locally or deployed online.
+https://titanic-survival-prediction-manugoetz.streamlit.app/
 
 ---
 
