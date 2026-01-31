@@ -21,9 +21,9 @@ sex = st.selectbox("Sex", ["male", "female"])
 pclass = st.selectbox("Passenger Class", [1, 2, 3])
 age = st.slider("Age", 0, 80, 30)
 fare = st.number_input("Fare", min_value=0.0, value=30.0)
-sibsp = st.number_input("Siblings / Spouses", 0, 8, 0)
-parch = st.number_input("Parents / Children", 0, 6, 0)
-embarked = st.selectbox("Embarked", ["S", "C", "Q"])
+sibsp = st.number_input("Siblings + Spouses", 0, 8, 0)
+parch = st.number_input("Parents + Children", 0, 6, 0)
+embarked = st.selectbox("Embarked", ["Southampton (ENG)", "Cherbourg (FRA)", "Queenstown (IRL)"])
 name = st.text_input("Name", "Doe, Mr. John")
 cabin = st.text_input("Cabin (optional)", "")
 ticket = st.text_input("Ticket", "A/5 21171")
@@ -36,7 +36,7 @@ ticket = st.text_input("Ticket", "A/5 21171")
 #     "Fare": fare,
 #     "SibSp": sibsp,
 #     "Parch": parch,
-#     "Embarked": embarked,
+#     "Embarked": embarked, # only first letter
 #     "Name": name,
 #     "Cabin": cabin if cabin else None,
 #     "Ticket": ticket
