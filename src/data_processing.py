@@ -5,6 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
+
 def describe_dataframe(df):
     nunique = df.nunique()
 
@@ -20,6 +21,8 @@ def describe_dataframe(df):
     summary = pd.DataFrame({
         "Missing Count": df.isnull().sum(),
         "Missing Percentage": df.isnull().mean(),
+        "Zero Count": (df == 0).sum(numeric_only=False),
+        "Zero Percentage": (df == 0).mean(numeric_only=False),
         "Distinct Values": nunique,
         "Mode": [
             col.mode().iloc[0] if not col.mode().empty else None
@@ -152,7 +155,6 @@ def show_feature_distributions(
 
         else:
             ax.hist(df[col], bins=50)
-            ax.set_ylabel("Count")
 
         ax.set_title(col)
         ax.set_xlabel(col)
@@ -231,4 +233,87 @@ def plot_survival_rate_categorical(
         ax.remove()
 
     plt.tight_layout()
+    plt.show()
+
+
+def detect_outliers(df, col, group_cols=None, show=False):
+    """
+    Detect outliers in a numerical column using IQR.
+    If group_cols is provided, detect outliers within each group.
+    
+    Returns a DataFrame of outliers.
+    """
+    if group_cols:
+        outliers_list = []
+        for group_vals, group_df in df.groupby(group_cols):
+            Q1 = group_df[col].quantile(0.25)
+            Q3 = group_df[col].quantile(0.75)
+            IQR = Q3 - Q1
+            lower_bound = Q1 - 1.5*IQR
+            upper_bound = Q3 + 1.5*IQR
+
+            group_outliers = group_df[(group_df[col] < lower_bound) | (group_df[col] > upper_bound)]
+            if show:
+                print(f"\n{len(group_outliers)} outliers in {col} for {dict(zip(group_cols, group_vals))}:")
+                print(group_outliers[[col] + list(group_cols)])
+            outliers_list.append(group_outliers)
+        return pd.concat(outliers_list)
+    else:
+        Q1 = df[col].quantile(0.25)
+        Q3 = df[col].quantile(0.75)
+        IQR = Q3 - Q1
+        lower_bound = Q1 - 1.5*IQR
+        upper_bound = Q3 + 1.5*IQR
+        outliers = df[(df[col] < lower_bound) | (df[col] > upper_bound)]
+        if show:
+            print(f"{len(outliers)} outliers in {col}:")
+            print(outliers[[col]])
+        return outliers
+
+    
+def plot_feature_survival_hist(
+    data,
+    feature,
+    percent=True,
+    bins=20,
+    height=5,
+    aspect=1,
+    palette={0: "red", 1: "green"},
+    title=None
+):
+    if feature not in data.columns:
+        raise ValueError(f"'{feature}' not found in dataframe")
+
+    multiple = "fill" if percent else "stack"
+    y_label = "Proportion" if percent else "Count"
+
+    # 🔹 Auto title
+    if title is None:
+        base_title = f"{feature} Distribution by Survival and Sex"
+    else:
+        base_title = title
+
+    full_title = f"{base_title} ({'Percent' if percent else 'Count'})"
+
+    g = sns.displot(
+        data=data,
+        x=feature,
+        hue="Survived",
+        col="Sex",
+        multiple=multiple,
+        bins=bins,
+        palette=palette,
+        height=height,
+        aspect=aspect,
+        common_norm=not percent
+    )
+
+    g.set_axis_labels(feature, y_label)
+    g.set_titles("Sex: {col_name}")
+    g._legend.set_title("Survived")
+
+    # 🔹 Global title
+    g.fig.suptitle(full_title, fontsize=16)
+    g.fig.subplots_adjust(top=0.85)
+
     plt.show()
