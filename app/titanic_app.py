@@ -16,17 +16,17 @@ import streamlit as st
 st.title("🚢 Titanic Survival Predictor")
 st.write("Enter passenger details to predict survival probability.")
 
-# # --- User inputs ---
-# sex = st.selectbox("Sex", ["male", "female"])
-# pclass = st.selectbox("Passenger Class", [1, 2, 3])
-# age = st.slider("Age", 0, 80, 30)
-# fare = st.number_input("Fare", min_value=0.0, value=30.0)
-# sibsp = st.number_input("Siblings / Spouses", 0, 8, 0)
-# parch = st.number_input("Parents / Children", 0, 6, 0)
-# embarked = st.selectbox("Embarked", ["S", "C", "Q"])
-# name = st.text_input("Name", "Doe, Mr. John")
-# cabin = st.text_input("Cabin (optional)", "")
-# ticket = st.text_input("Ticket", "A/5 21171")
+# --- User inputs ---
+sex = st.selectbox("Sex", ["male", "female"])
+pclass = st.selectbox("Passenger Class", [1, 2, 3])
+age = st.slider("Age", 0, 80, 30)
+fare = st.number_input("Fare", min_value=0.0, value=30.0)
+sibsp = st.number_input("Siblings / Spouses", 0, 8, 0)
+parch = st.number_input("Parents / Children", 0, 6, 0)
+embarked = st.selectbox("Embarked", ["S", "C", "Q"])
+name = st.text_input("Name", "Doe, Mr. John")
+cabin = st.text_input("Cabin (optional)", "")
+ticket = st.text_input("Ticket", "A/5 21171")
 
 # # Create DataFrame
 # input_df = pd.DataFrame([{
