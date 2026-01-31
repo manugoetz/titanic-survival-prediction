@@ -50,7 +50,6 @@ fare = st.number_input("Fare", min_value=0.0, value=30.0)
 sibsp = st.number_input("Number of Siblings + Spouses on Board", 0, 8, 0)
 parch = st.number_input("Number of Parents + Children on Board", 0, 6, 0)
 embarked = st.selectbox("Embarked", ["Southampton (ENG)", "Cherbourg (FRA)", "Queenstown (IRL)"])
-name = st.text_input("Name", "Doe, Mr. John")
 available_titles = get_available_titles(sex, age)
 title = st.selectbox(
     "Title",
