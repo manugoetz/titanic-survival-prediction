@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 import sys
 import os
-
+st.write("CWD:", os.getcwd())
+st.write("Files:", os.listdir("."))
 # Add the parent folder to sys.path
 # sys.path.append(os.path.abspath(os.path.join('..')))
 import src.feature_engineering as fen
