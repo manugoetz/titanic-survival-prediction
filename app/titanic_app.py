@@ -1,17 +1,19 @@
 import streamlit as st
-# import pandas as pd
-# import joblib
+import pandas as pd
+import joblib
+import sys
+import os
 
-# from features.feature_engineering import (
-#     extract_title, extract_deck, get_famtype, bin_fare
-# )
+# Add the parent folder to sys.path
+sys.path.append(os.path.abspath(os.path.join('..')))
+import src.feature_engineering as fen
 
-# # Load model
-# @st.cache_resource
-# def load_model():
-#     return joblib.load("model/pipeline.pkl")
+# Load model
+@st.cache_resource
+def load_model():
+    return joblib.load("../models/pipeline.pkl")
 
-# model = load_model()
+model = load_model()
 
 st.title("🚢 Titanic Survival Predictor")
 st.write("Enter passenger details to predict survival probability.")
@@ -58,35 +60,36 @@ title = st.selectbox(
 cabin = st.text_input("Cabin (optional)", "")
 ticket = st.text_input("Ticket", "A/5 21171")
 
-# # Create DataFrame
-# input_df = pd.DataFrame([{
-#     "Pclass": pclass,
-#     "Sex": sex,
-#     "Age": age,
-#     "Fare": fare,
-#     "SibSp": sibsp,
-#     "Parch": parch,
-#     "Embarked": embarked, # only first letter
-#     "Name": title,
-#     "Cabin": cabin if cabin else None,
-#     "Ticket": ticket
-# }])
+# Create DataFrame
+input_df = pd.DataFrame([{
+    "Pclass": pclass,
+    "Sex": sex,
+    "Age": age,
+    "Fare": fare,
+    "SibSp": sibsp,
+    "Parch": parch,
+    "Embarked": embarked[0], # only first letter
+    "Title": title,
+    "Cabin": cabin if cabin else None,
+    "Ticket": ticket
+}])
 
-# # Feature engineering
-# input_df = extract_title(input_df)
-# input_df = extract_deck(input_df)
-# input_df = get_famtype(input_df)
-# input_df = bin_fare(input_df)
+# Feature engineering
+# input_df = fen.extract_title(input_df)
+input_df = fen.get_famtype(input_df)
+input_df = fen.map_ticket(input_df, threshold=3)
+input_df = fen.bin_fare(input_df)
+input_df = fen.extract_deck(input_df)
 
-# # Predict
-# if st.button("Predict Survival"):
-#     proba = model.predict_proba(input_df)[0][1]
-#     pred = model.predict(input_df)[0]
+# Predict
+if st.button("Predict Survival"):
+    proba = model.predict_proba(input_df)[0][1]
+    pred = model.predict(input_df)[0]
 
-#     st.subheader("Result")
-#     st.write(f"🧮 Survival Probability: **{proba:.2%}**")
+    st.subheader("Result")
+    st.write(f"🧮 Survival Probability: **{proba:.2%}**")
 
-#     if pred == 1:
-#         st.success("🎉 Likely to Survive")
-#     else:
-#         st.error("⚠️ Unlikely to Survive")
+    if pred == 1:
+        st.success("🎉 Likely to Survive")
+    else:
+        st.error("⚠️ Unlikely to Survive")
