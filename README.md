@@ -77,6 +77,7 @@ EDA is conducted on the **training data** to explore relationships between featu
 
 - Distribution of numerical features (Age, Fare)  
 - Survival rates by categorical features (Sex, Pclass, Embarked)  
+![Survival Rate by Sex](../img/survival_rate_by_sex.png)  
 - Missing value analysis  
 - Insights guiding feature engineering
 
