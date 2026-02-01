@@ -3,10 +3,16 @@ import pandas as pd
 import joblib
 import sys
 import os
+import Path
 st.write("CWD:", os.getcwd())
 st.write("Files:", os.listdir("."))
 # Add the parent folder to sys.path
 # sys.path.append(os.path.abspath(os.path.join('..')))
+# Add project root to sys.path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+st.write("CWD:", os.getcwd())
+st.write("Files:", os.listdir("."))
 import src.feature_engineering as fen
 
 # Load model
