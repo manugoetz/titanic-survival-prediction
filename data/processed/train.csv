@@ -1,892 +1,892 @@
-PassengerId,Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked,FamSize,FamType,Title,Deck
-1,3,male,22.0,1,0,A/5 21171,7.25,S,2,Small,Mr,Unknown
-2,1,female,38.0,1,0,PC 17599,71.2833,C,2,Small,Mrs,C
-3,3,female,26.0,0,0,STON/O2. 3101282,7.925,S,1,Solo,Miss,Unknown
-4,1,female,35.0,1,0,113803,53.1,S,2,Small,Mrs,C
-5,3,male,35.0,0,0,373450,8.05,S,1,Solo,Mr,Unknown
-6,3,male,,0,0,330877,8.4583,Q,1,Solo,Mr,Unknown
-7,1,male,54.0,0,0,17463,51.8625,S,1,Solo,Mr,E
-8,3,male,2.0,3,1,349909,21.075,S,5,Large,Master,Unknown
-9,3,female,27.0,0,2,347742,11.1333,S,3,Small,Mrs,Unknown
-10,2,female,14.0,1,0,237736,30.0708,C,2,Small,Mrs,Unknown
-11,3,female,4.0,1,1,PP 9549,16.7,S,3,Small,Miss,G
-12,1,female,58.0,0,0,113783,26.55,S,1,Solo,Miss,C
-13,3,male,20.0,0,0,A/5. 2151,8.05,S,1,Solo,Mr,Unknown
-14,3,male,39.0,1,5,347082,31.275,S,7,Large,Mr,Unknown
-15,3,female,14.0,0,0,350406,7.8542,S,1,Solo,Miss,Unknown
-16,2,female,55.0,0,0,248706,16.0,S,1,Solo,Mrs,Unknown
-17,3,male,2.0,4,1,382652,29.125,Q,6,Large,Master,Unknown
-18,2,male,,0,0,244373,13.0,S,1,Solo,Mr,Unknown
-19,3,female,31.0,1,0,345763,18.0,S,2,Small,Mrs,Unknown
-20,3,female,,0,0,2649,7.225,C,1,Solo,Mrs,Unknown
-21,2,male,35.0,0,0,239865,26.0,S,1,Solo,Mr,Unknown
-22,2,male,34.0,0,0,248698,13.0,S,1,Solo,Mr,D
-23,3,female,15.0,0,0,330923,8.0292,Q,1,Solo,Miss,Unknown
-24,1,male,28.0,0,0,113788,35.5,S,1,Solo,Mr,A
-25,3,female,8.0,3,1,349909,21.075,S,5,Large,Miss,Unknown
-26,3,female,38.0,1,5,347077,31.3875,S,7,Large,Mrs,Unknown
-27,3,male,,0,0,2631,7.225,C,1,Solo,Mr,Unknown
-28,1,male,19.0,3,2,19950,263.0,S,6,Large,Mr,C
-29,3,female,,0,0,330959,7.8792,Q,1,Solo,Miss,Unknown
-30,3,male,,0,0,349216,7.8958,S,1,Solo,Mr,Unknown
-31,1,male,40.0,0,0,PC 17601,27.7208,C,1,Solo,Royalty,Unknown
-32,1,female,,1,0,PC 17569,146.5208,C,2,Small,Mrs,B
-33,3,female,,0,0,335677,7.75,Q,1,Solo,Miss,Unknown
-34,2,male,66.0,0,0,C.A. 24579,10.5,S,1,Solo,Mr,Unknown
-35,1,male,28.0,1,0,PC 17604,82.1708,C,2,Small,Mr,Unknown
-36,1,male,42.0,1,0,113789,52.0,S,2,Small,Mr,Unknown
-37,3,male,,0,0,2677,7.2292,C,1,Solo,Mr,Unknown
-38,3,male,21.0,0,0,A./5. 2152,8.05,S,1,Solo,Mr,Unknown
-39,3,female,18.0,2,0,345764,18.0,S,3,Small,Miss,Unknown
-40,3,female,14.0,1,0,2651,11.2417,C,2,Small,Miss,Unknown
-41,3,female,40.0,1,0,7546,9.475,S,2,Small,Mrs,Unknown
-42,2,female,27.0,1,0,11668,21.0,S,2,Small,Mrs,Unknown
-43,3,male,,0,0,349253,7.8958,C,1,Solo,Mr,Unknown
-44,2,female,3.0,1,2,SC/Paris 2123,41.5792,C,4,Small,Miss,Unknown
-45,3,female,19.0,0,0,330958,7.8792,Q,1,Solo,Miss,Unknown
-46,3,male,,0,0,S.C./A.4. 23567,8.05,S,1,Solo,Mr,Unknown
-47,3,male,,1,0,370371,15.5,Q,2,Small,Mr,Unknown
-48,3,female,,0,0,14311,7.75,Q,1,Solo,Miss,Unknown
-49,3,male,,2,0,2662,21.6792,C,3,Small,Mr,Unknown
-50,3,female,18.0,1,0,349237,17.8,S,2,Small,Mrs,Unknown
-51,3,male,7.0,4,1,3101295,39.6875,S,6,Large,Master,Unknown
-52,3,male,21.0,0,0,A/4. 39886,7.8,S,1,Solo,Mr,Unknown
-53,1,female,49.0,1,0,PC 17572,76.7292,C,2,Small,Mrs,D
-54,2,female,29.0,1,0,2926,26.0,S,2,Small,Mrs,Unknown
-55,1,male,65.0,0,1,113509,61.9792,C,2,Small,Mr,B
-56,1,male,,0,0,19947,35.5,S,1,Solo,Mr,C
-57,2,female,21.0,0,0,C.A. 31026,10.5,S,1,Solo,Miss,Unknown
-58,3,male,28.5,0,0,2697,7.2292,C,1,Solo,Mr,Unknown
-59,2,female,5.0,1,2,C.A. 34651,27.75,S,4,Small,Miss,Unknown
-60,3,male,11.0,5,2,CA 2144,46.9,S,8,Large,Master,Unknown
-61,3,male,22.0,0,0,2669,7.2292,C,1,Solo,Mr,Unknown
-62,1,female,38.0,0,0,113572,80.0,,1,Solo,Miss,B
-63,1,male,45.0,1,0,36973,83.475,S,2,Small,Mr,C
-64,3,male,4.0,3,2,347088,27.9,S,6,Large,Master,Unknown
-65,1,male,,0,0,PC 17605,27.7208,C,1,Solo,Mr,Unknown
-66,3,male,,1,1,2661,15.2458,C,3,Small,Master,Unknown
-67,2,female,29.0,0,0,C.A. 29395,10.5,S,1,Solo,Mrs,F
-68,3,male,19.0,0,0,S.P. 3464,8.1583,S,1,Solo,Mr,Unknown
-69,3,female,17.0,4,2,3101281,7.925,S,7,Large,Miss,Unknown
-70,3,male,26.0,2,0,315151,8.6625,S,3,Small,Mr,Unknown
-71,2,male,32.0,0,0,C.A. 33111,10.5,S,1,Solo,Mr,Unknown
-72,3,female,16.0,5,2,CA 2144,46.9,S,8,Large,Miss,Unknown
-73,2,male,21.0,0,0,S.O.C. 14879,73.5,S,1,Solo,Mr,Unknown
-74,3,male,26.0,1,0,2680,14.4542,C,2,Small,Mr,Unknown
-75,3,male,32.0,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-76,3,male,25.0,0,0,348123,7.65,S,1,Solo,Mr,F
-77,3,male,,0,0,349208,7.8958,S,1,Solo,Mr,Unknown
-78,3,male,,0,0,374746,8.05,S,1,Solo,Mr,Unknown
-79,2,male,0.83,0,2,248738,29.0,S,3,Small,Master,Unknown
-80,3,female,30.0,0,0,364516,12.475,S,1,Solo,Miss,Unknown
-81,3,male,22.0,0,0,345767,9.0,S,1,Solo,Mr,Unknown
-82,3,male,29.0,0,0,345779,9.5,S,1,Solo,Mr,Unknown
-83,3,female,,0,0,330932,7.7875,Q,1,Solo,Miss,Unknown
-84,1,male,28.0,0,0,113059,47.1,S,1,Solo,Mr,Unknown
-85,2,female,17.0,0,0,SO/C 14885,10.5,S,1,Solo,Miss,Unknown
-86,3,female,33.0,3,0,3101278,15.85,S,4,Small,Mrs,Unknown
-87,3,male,16.0,1,3,W./C. 6608,34.375,S,5,Large,Mr,Unknown
-88,3,male,,0,0,SOTON/OQ 392086,8.05,S,1,Solo,Mr,Unknown
-89,1,female,23.0,3,2,19950,263.0,S,6,Large,Miss,C
-90,3,male,24.0,0,0,343275,8.05,S,1,Solo,Mr,Unknown
-91,3,male,29.0,0,0,343276,8.05,S,1,Solo,Mr,Unknown
-92,3,male,20.0,0,0,347466,7.8542,S,1,Solo,Mr,Unknown
-93,1,male,46.0,1,0,W.E.P. 5734,61.175,S,2,Small,Mr,E
-94,3,male,26.0,1,2,C.A. 2315,20.575,S,4,Small,Mr,Unknown
-95,3,male,59.0,0,0,364500,7.25,S,1,Solo,Mr,Unknown
-96,3,male,,0,0,374910,8.05,S,1,Solo,Mr,Unknown
-97,1,male,71.0,0,0,PC 17754,34.6542,C,1,Solo,Mr,A
-98,1,male,23.0,0,1,PC 17759,63.3583,C,2,Small,Mr,D
-99,2,female,34.0,0,1,231919,23.0,S,2,Small,Mrs,Unknown
-100,2,male,34.0,1,0,244367,26.0,S,2,Small,Mr,Unknown
-101,3,female,28.0,0,0,349245,7.8958,S,1,Solo,Miss,Unknown
-102,3,male,,0,0,349215,7.8958,S,1,Solo,Mr,Unknown
-103,1,male,21.0,0,1,35281,77.2875,S,2,Small,Mr,D
-104,3,male,33.0,0,0,7540,8.6542,S,1,Solo,Mr,Unknown
-105,3,male,37.0,2,0,3101276,7.925,S,3,Small,Mr,Unknown
-106,3,male,28.0,0,0,349207,7.8958,S,1,Solo,Mr,Unknown
-107,3,female,21.0,0,0,343120,7.65,S,1,Solo,Miss,Unknown
-108,3,male,,0,0,312991,7.775,S,1,Solo,Mr,Unknown
-109,3,male,38.0,0,0,349249,7.8958,S,1,Solo,Mr,Unknown
-110,3,female,,1,0,371110,24.15,Q,2,Small,Miss,Unknown
-111,1,male,47.0,0,0,110465,52.0,S,1,Solo,Mr,C
-112,3,female,14.5,1,0,2665,14.4542,C,2,Small,Miss,Unknown
-113,3,male,22.0,0,0,324669,8.05,S,1,Solo,Mr,Unknown
-114,3,female,20.0,1,0,4136,9.825,S,2,Small,Miss,Unknown
-115,3,female,17.0,0,0,2627,14.4583,C,1,Solo,Miss,Unknown
-116,3,male,21.0,0,0,STON/O 2. 3101294,7.925,S,1,Solo,Mr,Unknown
-117,3,male,70.5,0,0,370369,7.75,Q,1,Solo,Mr,Unknown
-118,2,male,29.0,1,0,11668,21.0,S,2,Small,Mr,Unknown
-119,1,male,24.0,0,1,PC 17558,247.5208,C,2,Small,Mr,B
-120,3,female,2.0,4,2,347082,31.275,S,7,Large,Miss,Unknown
-121,2,male,21.0,2,0,S.O.C. 14879,73.5,S,3,Small,Mr,Unknown
-122,3,male,,0,0,A4. 54510,8.05,S,1,Solo,Mr,Unknown
-123,2,male,32.5,1,0,237736,30.0708,C,2,Small,Mr,Unknown
-124,2,female,32.5,0,0,27267,13.0,S,1,Solo,Miss,E
-125,1,male,54.0,0,1,35281,77.2875,S,2,Small,Mr,D
-126,3,male,12.0,1,0,2651,11.2417,C,2,Small,Master,Unknown
-127,3,male,,0,0,370372,7.75,Q,1,Solo,Mr,Unknown
-128,3,male,24.0,0,0,C 17369,7.1417,S,1,Solo,Mr,Unknown
-129,3,female,,1,1,2668,22.3583,C,3,Small,Miss,F
-130,3,male,45.0,0,0,347061,6.975,S,1,Solo,Mr,Unknown
-131,3,male,33.0,0,0,349241,7.8958,C,1,Solo,Mr,Unknown
-132,3,male,20.0,0,0,SOTON/O.Q. 3101307,7.05,S,1,Solo,Mr,Unknown
-133,3,female,47.0,1,0,A/5. 3337,14.5,S,2,Small,Mrs,Unknown
-134,2,female,29.0,1,0,228414,26.0,S,2,Small,Mrs,Unknown
-135,2,male,25.0,0,0,C.A. 29178,13.0,S,1,Solo,Mr,Unknown
-136,2,male,23.0,0,0,SC/PARIS 2133,15.0458,C,1,Solo,Mr,Unknown
-137,1,female,19.0,0,2,11752,26.2833,S,3,Small,Miss,D
-138,1,male,37.0,1,0,113803,53.1,S,2,Small,Mr,C
-139,3,male,16.0,0,0,7534,9.2167,S,1,Solo,Mr,Unknown
-140,1,male,24.0,0,0,PC 17593,79.2,C,1,Solo,Mr,B
-141,3,female,,0,2,2678,15.2458,C,3,Small,Mrs,Unknown
-142,3,female,22.0,0,0,347081,7.75,S,1,Solo,Miss,Unknown
-143,3,female,24.0,1,0,STON/O2. 3101279,15.85,S,2,Small,Mrs,Unknown
-144,3,male,19.0,0,0,365222,6.75,Q,1,Solo,Mr,Unknown
-145,2,male,18.0,0,0,231945,11.5,S,1,Solo,Mr,Unknown
-146,2,male,19.0,1,1,C.A. 33112,36.75,S,3,Small,Mr,Unknown
-147,3,male,27.0,0,0,350043,7.7958,S,1,Solo,Mr,Unknown
-148,3,female,9.0,2,2,W./C. 6608,34.375,S,5,Large,Miss,Unknown
-149,2,male,36.5,0,2,230080,26.0,S,3,Small,Mr,F
-150,2,male,42.0,0,0,244310,13.0,S,1,Solo,Officer,Unknown
-151,2,male,51.0,0,0,S.O.P. 1166,12.525,S,1,Solo,Officer,Unknown
-152,1,female,22.0,1,0,113776,66.6,S,2,Small,Mrs,C
-153,3,male,55.5,0,0,A.5. 11206,8.05,S,1,Solo,Mr,Unknown
-154,3,male,40.5,0,2,A/5. 851,14.5,S,3,Small,Mr,Unknown
-155,3,male,,0,0,Fa 265302,7.3125,S,1,Solo,Mr,Unknown
-156,1,male,51.0,0,1,PC 17597,61.3792,C,2,Small,Mr,Unknown
-157,3,female,16.0,0,0,35851,7.7333,Q,1,Solo,Miss,Unknown
-158,3,male,30.0,0,0,SOTON/OQ 392090,8.05,S,1,Solo,Mr,Unknown
-159,3,male,,0,0,315037,8.6625,S,1,Solo,Mr,Unknown
-160,3,male,,8,2,CA. 2343,69.55,S,11,Large,Master,Unknown
-161,3,male,44.0,0,1,371362,16.1,S,2,Small,Mr,Unknown
-162,2,female,40.0,0,0,C.A. 33595,15.75,S,1,Solo,Mrs,Unknown
-163,3,male,26.0,0,0,347068,7.775,S,1,Solo,Mr,Unknown
-164,3,male,17.0,0,0,315093,8.6625,S,1,Solo,Mr,Unknown
-165,3,male,1.0,4,1,3101295,39.6875,S,6,Large,Master,Unknown
-166,3,male,9.0,0,2,363291,20.525,S,3,Small,Master,Unknown
-167,1,female,,0,1,113505,55.0,S,2,Small,Mrs,E
-168,3,female,45.0,1,4,347088,27.9,S,6,Large,Mrs,Unknown
-169,1,male,,0,0,PC 17318,25.925,S,1,Solo,Mr,Unknown
-170,3,male,28.0,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-171,1,male,61.0,0,0,111240,33.5,S,1,Solo,Mr,B
-172,3,male,4.0,4,1,382652,29.125,Q,6,Large,Master,Unknown
-173,3,female,1.0,1,1,347742,11.1333,S,3,Small,Miss,Unknown
-174,3,male,21.0,0,0,STON/O 2. 3101280,7.925,S,1,Solo,Mr,Unknown
-175,1,male,56.0,0,0,17764,30.6958,C,1,Solo,Mr,A
-176,3,male,18.0,1,1,350404,7.8542,S,3,Small,Mr,Unknown
-177,3,male,,3,1,4133,25.4667,S,5,Large,Master,Unknown
-178,1,female,50.0,0,0,PC 17595,28.7125,C,1,Solo,Miss,C
-179,2,male,30.0,0,0,250653,13.0,S,1,Solo,Mr,Unknown
-180,3,male,36.0,0,0,LINE,0.0,S,1,Solo,Mr,Unknown
-181,3,female,,8,2,CA. 2343,69.55,S,11,Large,Miss,Unknown
-182,2,male,,0,0,SC/PARIS 2131,15.05,C,1,Solo,Mr,Unknown
-183,3,male,9.0,4,2,347077,31.3875,S,7,Large,Master,Unknown
-184,2,male,1.0,2,1,230136,39.0,S,4,Small,Master,F
-185,3,female,4.0,0,2,315153,22.025,S,3,Small,Miss,Unknown
-186,1,male,,0,0,113767,50.0,S,1,Solo,Mr,A
-187,3,female,,1,0,370365,15.5,Q,2,Small,Mrs,Unknown
-188,1,male,45.0,0,0,111428,26.55,S,1,Solo,Mr,Unknown
-189,3,male,40.0,1,1,364849,15.5,Q,3,Small,Mr,Unknown
-190,3,male,36.0,0,0,349247,7.8958,S,1,Solo,Mr,Unknown
-191,2,female,32.0,0,0,234604,13.0,S,1,Solo,Mrs,Unknown
-192,2,male,19.0,0,0,28424,13.0,S,1,Solo,Mr,Unknown
-193,3,female,19.0,1,0,350046,7.8542,S,2,Small,Miss,Unknown
-194,2,male,3.0,1,1,230080,26.0,S,3,Small,Master,F
-195,1,female,44.0,0,0,PC 17610,27.7208,C,1,Solo,Mrs,B
-196,1,female,58.0,0,0,PC 17569,146.5208,C,1,Solo,Miss,B
-197,3,male,,0,0,368703,7.75,Q,1,Solo,Mr,Unknown
-198,3,male,42.0,0,1,4579,8.4042,S,2,Small,Mr,Unknown
-199,3,female,,0,0,370370,7.75,Q,1,Solo,Miss,Unknown
-200,2,female,24.0,0,0,248747,13.0,S,1,Solo,Miss,Unknown
-201,3,male,28.0,0,0,345770,9.5,S,1,Solo,Mr,Unknown
-202,3,male,,8,2,CA. 2343,69.55,S,11,Large,Mr,Unknown
-203,3,male,34.0,0,0,3101264,6.4958,S,1,Solo,Mr,Unknown
-204,3,male,45.5,0,0,2628,7.225,C,1,Solo,Mr,Unknown
-205,3,male,18.0,0,0,A/5 3540,8.05,S,1,Solo,Mr,Unknown
-206,3,female,2.0,0,1,347054,10.4625,S,2,Small,Miss,G
-207,3,male,32.0,1,0,3101278,15.85,S,2,Small,Mr,Unknown
-208,3,male,26.0,0,0,2699,18.7875,C,1,Solo,Mr,Unknown
-209,3,female,16.0,0,0,367231,7.75,Q,1,Solo,Miss,Unknown
-210,1,male,40.0,0,0,112277,31.0,C,1,Solo,Mr,A
-211,3,male,24.0,0,0,SOTON/O.Q. 3101311,7.05,S,1,Solo,Mr,Unknown
-212,2,female,35.0,0,0,F.C.C. 13528,21.0,S,1,Solo,Miss,Unknown
-213,3,male,22.0,0,0,A/5 21174,7.25,S,1,Solo,Mr,Unknown
-214,2,male,30.0,0,0,250646,13.0,S,1,Solo,Mr,Unknown
-215,3,male,,1,0,367229,7.75,Q,2,Small,Mr,Unknown
-216,1,female,31.0,1,0,35273,113.275,C,2,Small,Miss,D
-217,3,female,27.0,0,0,STON/O2. 3101283,7.925,S,1,Solo,Miss,Unknown
-218,2,male,42.0,1,0,243847,27.0,S,2,Small,Mr,Unknown
-219,1,female,32.0,0,0,11813,76.2917,C,1,Solo,Miss,D
-220,2,male,30.0,0,0,W/C 14208,10.5,S,1,Solo,Mr,Unknown
-221,3,male,16.0,0,0,SOTON/OQ 392089,8.05,S,1,Solo,Mr,Unknown
-222,2,male,27.0,0,0,220367,13.0,S,1,Solo,Mr,Unknown
-223,3,male,51.0,0,0,21440,8.05,S,1,Solo,Mr,Unknown
-224,3,male,,0,0,349234,7.8958,S,1,Solo,Mr,Unknown
-225,1,male,38.0,1,0,19943,90.0,S,2,Small,Mr,C
-226,3,male,22.0,0,0,PP 4348,9.35,S,1,Solo,Mr,Unknown
-227,2,male,19.0,0,0,SW/PP 751,10.5,S,1,Solo,Mr,Unknown
-228,3,male,20.5,0,0,A/5 21173,7.25,S,1,Solo,Mr,Unknown
-229,2,male,18.0,0,0,236171,13.0,S,1,Solo,Mr,Unknown
-230,3,female,,3,1,4133,25.4667,S,5,Large,Miss,Unknown
-231,1,female,35.0,1,0,36973,83.475,S,2,Small,Mrs,C
-232,3,male,29.0,0,0,347067,7.775,S,1,Solo,Mr,Unknown
-233,2,male,59.0,0,0,237442,13.5,S,1,Solo,Mr,Unknown
-234,3,female,5.0,4,2,347077,31.3875,S,7,Large,Miss,Unknown
-235,2,male,24.0,0,0,C.A. 29566,10.5,S,1,Solo,Mr,Unknown
-236,3,female,,0,0,W./C. 6609,7.55,S,1,Solo,Miss,Unknown
-237,2,male,44.0,1,0,26707,26.0,S,2,Small,Mr,Unknown
-238,2,female,8.0,0,2,C.A. 31921,26.25,S,3,Small,Miss,Unknown
-239,2,male,19.0,0,0,28665,10.5,S,1,Solo,Mr,Unknown
-240,2,male,33.0,0,0,SCO/W 1585,12.275,S,1,Solo,Mr,Unknown
-241,3,female,,1,0,2665,14.4542,C,2,Small,Miss,Unknown
-242,3,female,,1,0,367230,15.5,Q,2,Small,Miss,Unknown
-243,2,male,29.0,0,0,W./C. 14263,10.5,S,1,Solo,Mr,Unknown
-244,3,male,22.0,0,0,STON/O 2. 3101275,7.125,S,1,Solo,Mr,Unknown
-245,3,male,30.0,0,0,2694,7.225,C,1,Solo,Mr,Unknown
-246,1,male,44.0,2,0,19928,90.0,Q,3,Small,Officer,C
-247,3,female,25.0,0,0,347071,7.775,S,1,Solo,Miss,Unknown
-248,2,female,24.0,0,2,250649,14.5,S,3,Small,Mrs,Unknown
-249,1,male,37.0,1,1,11751,52.5542,S,3,Small,Mr,D
-250,2,male,54.0,1,0,244252,26.0,S,2,Small,Officer,Unknown
-251,3,male,,0,0,362316,7.25,S,1,Solo,Mr,Unknown
-252,3,female,29.0,1,1,347054,10.4625,S,3,Small,Mrs,G
-253,1,male,62.0,0,0,113514,26.55,S,1,Solo,Mr,C
-254,3,male,30.0,1,0,A/5. 3336,16.1,S,2,Small,Mr,Unknown
-255,3,female,41.0,0,2,370129,20.2125,S,3,Small,Mrs,Unknown
-256,3,female,29.0,0,2,2650,15.2458,C,3,Small,Mrs,Unknown
-257,1,female,,0,0,PC 17585,79.2,C,1,Solo,Mrs,Unknown
-258,1,female,30.0,0,0,110152,86.5,S,1,Solo,Miss,B
-259,1,female,35.0,0,0,PC 17755,512.3292,C,1,Solo,Miss,Unknown
-260,2,female,50.0,0,1,230433,26.0,S,2,Small,Mrs,Unknown
-261,3,male,,0,0,384461,7.75,Q,1,Solo,Mr,Unknown
-262,3,male,3.0,4,2,347077,31.3875,S,7,Large,Master,Unknown
-263,1,male,52.0,1,1,110413,79.65,S,3,Small,Mr,E
-264,1,male,40.0,0,0,112059,0.0,S,1,Solo,Mr,B
-265,3,female,,0,0,382649,7.75,Q,1,Solo,Miss,Unknown
-266,2,male,36.0,0,0,C.A. 17248,10.5,S,1,Solo,Mr,Unknown
-267,3,male,16.0,4,1,3101295,39.6875,S,6,Large,Mr,Unknown
-268,3,male,25.0,1,0,347083,7.775,S,2,Small,Mr,Unknown
-269,1,female,58.0,0,1,PC 17582,153.4625,S,2,Small,Mrs,C
-270,1,female,35.0,0,0,PC 17760,135.6333,S,1,Solo,Miss,C
-271,1,male,,0,0,113798,31.0,S,1,Solo,Mr,Unknown
-272,3,male,25.0,0,0,LINE,0.0,S,1,Solo,Mr,Unknown
-273,2,female,41.0,0,1,250644,19.5,S,2,Small,Mrs,Unknown
-274,1,male,37.0,0,1,PC 17596,29.7,C,2,Small,Mr,C
-275,3,female,,0,0,370375,7.75,Q,1,Solo,Miss,Unknown
-276,1,female,63.0,1,0,13502,77.9583,S,2,Small,Miss,D
-277,3,female,45.0,0,0,347073,7.75,S,1,Solo,Miss,Unknown
-278,2,male,,0,0,239853,0.0,S,1,Solo,Mr,Unknown
-279,3,male,7.0,4,1,382652,29.125,Q,6,Large,Master,Unknown
-280,3,female,35.0,1,1,C.A. 2673,20.25,S,3,Small,Mrs,Unknown
-281,3,male,65.0,0,0,336439,7.75,Q,1,Solo,Mr,Unknown
-282,3,male,28.0,0,0,347464,7.8542,S,1,Solo,Mr,Unknown
-283,3,male,16.0,0,0,345778,9.5,S,1,Solo,Mr,Unknown
-284,3,male,19.0,0,0,A/5. 10482,8.05,S,1,Solo,Mr,Unknown
-285,1,male,,0,0,113056,26.0,S,1,Solo,Mr,A
-286,3,male,33.0,0,0,349239,8.6625,C,1,Solo,Mr,Unknown
-287,3,male,30.0,0,0,345774,9.5,S,1,Solo,Mr,Unknown
-288,3,male,22.0,0,0,349206,7.8958,S,1,Solo,Mr,Unknown
-289,2,male,42.0,0,0,237798,13.0,S,1,Solo,Mr,Unknown
-290,3,female,22.0,0,0,370373,7.75,Q,1,Solo,Miss,Unknown
-291,1,female,26.0,0,0,19877,78.85,S,1,Solo,Miss,Unknown
-292,1,female,19.0,1,0,11967,91.0792,C,2,Small,Mrs,B
-293,2,male,36.0,0,0,SC/Paris 2163,12.875,C,1,Solo,Mr,D
-294,3,female,24.0,0,0,349236,8.85,S,1,Solo,Miss,Unknown
-295,3,male,24.0,0,0,349233,7.8958,S,1,Solo,Mr,Unknown
-296,1,male,,0,0,PC 17612,27.7208,C,1,Solo,Mr,Unknown
-297,3,male,23.5,0,0,2693,7.2292,C,1,Solo,Mr,Unknown
-298,1,female,2.0,1,2,113781,151.55,S,4,Small,Miss,C
-299,1,male,,0,0,19988,30.5,S,1,Solo,Mr,C
-300,1,female,50.0,0,1,PC 17558,247.5208,C,2,Small,Mrs,B
-301,3,female,,0,0,9234,7.75,Q,1,Solo,Miss,Unknown
-302,3,male,,2,0,367226,23.25,Q,3,Small,Mr,Unknown
-303,3,male,19.0,0,0,LINE,0.0,S,1,Solo,Mr,Unknown
-304,2,female,,0,0,226593,12.35,Q,1,Solo,Miss,E
-305,3,male,,0,0,A/5 2466,8.05,S,1,Solo,Mr,Unknown
-306,1,male,0.92,1,2,113781,151.55,S,4,Small,Master,C
-307,1,female,,0,0,17421,110.8833,C,1,Solo,Miss,Unknown
-308,1,female,17.0,1,0,PC 17758,108.9,C,2,Small,Mrs,C
-309,2,male,30.0,1,0,P/PP 3381,24.0,C,2,Small,Mr,Unknown
-310,1,female,30.0,0,0,PC 17485,56.9292,C,1,Solo,Miss,E
-311,1,female,24.0,0,0,11767,83.1583,C,1,Solo,Miss,C
-312,1,female,18.0,2,2,PC 17608,262.375,C,5,Large,Miss,B
-313,2,female,26.0,1,1,250651,26.0,S,3,Small,Mrs,Unknown
-314,3,male,28.0,0,0,349243,7.8958,S,1,Solo,Mr,Unknown
-315,2,male,43.0,1,1,F.C.C. 13529,26.25,S,3,Small,Mr,Unknown
-316,3,female,26.0,0,0,347470,7.8542,S,1,Solo,Miss,Unknown
-317,2,female,24.0,1,0,244367,26.0,S,2,Small,Mrs,Unknown
-318,2,male,54.0,0,0,29011,14.0,S,1,Solo,Officer,Unknown
-319,1,female,31.0,0,2,36928,164.8667,S,3,Small,Miss,C
-320,1,female,40.0,1,1,16966,134.5,C,3,Small,Mrs,E
-321,3,male,22.0,0,0,A/5 21172,7.25,S,1,Solo,Mr,Unknown
-322,3,male,27.0,0,0,349219,7.8958,S,1,Solo,Mr,Unknown
-323,2,female,30.0,0,0,234818,12.35,Q,1,Solo,Miss,Unknown
-324,2,female,22.0,1,1,248738,29.0,S,3,Small,Mrs,Unknown
-325,3,male,,8,2,CA. 2343,69.55,S,11,Large,Mr,Unknown
-326,1,female,36.0,0,0,PC 17760,135.6333,C,1,Solo,Miss,C
-327,3,male,61.0,0,0,345364,6.2375,S,1,Solo,Mr,Unknown
-328,2,female,36.0,0,0,28551,13.0,S,1,Solo,Mrs,D
-329,3,female,31.0,1,1,363291,20.525,S,3,Small,Mrs,Unknown
-330,1,female,16.0,0,1,111361,57.9792,C,2,Small,Miss,B
-331,3,female,,2,0,367226,23.25,Q,3,Small,Miss,Unknown
-332,1,male,45.5,0,0,113043,28.5,S,1,Solo,Mr,C
-333,1,male,38.0,0,1,PC 17582,153.4625,S,2,Small,Mr,C
-334,3,male,16.0,2,0,345764,18.0,S,3,Small,Mr,Unknown
-335,1,female,,1,0,PC 17611,133.65,S,2,Small,Mrs,Unknown
-336,3,male,,0,0,349225,7.8958,S,1,Solo,Mr,Unknown
-337,1,male,29.0,1,0,113776,66.6,S,2,Small,Mr,C
-338,1,female,41.0,0,0,16966,134.5,C,1,Solo,Miss,E
-339,3,male,45.0,0,0,7598,8.05,S,1,Solo,Mr,Unknown
-340,1,male,45.0,0,0,113784,35.5,S,1,Solo,Mr,T
-341,2,male,2.0,1,1,230080,26.0,S,3,Small,Master,F
-342,1,female,24.0,3,2,19950,263.0,S,6,Large,Miss,C
-343,2,male,28.0,0,0,248740,13.0,S,1,Solo,Mr,Unknown
-344,2,male,25.0,0,0,244361,13.0,S,1,Solo,Mr,Unknown
-345,2,male,36.0,0,0,229236,13.0,S,1,Solo,Mr,Unknown
-346,2,female,24.0,0,0,248733,13.0,S,1,Solo,Miss,F
-347,2,female,40.0,0,0,31418,13.0,S,1,Solo,Miss,Unknown
-348,3,female,,1,0,386525,16.1,S,2,Small,Mrs,Unknown
-349,3,male,3.0,1,1,C.A. 37671,15.9,S,3,Small,Master,Unknown
-350,3,male,42.0,0,0,315088,8.6625,S,1,Solo,Mr,Unknown
-351,3,male,23.0,0,0,7267,9.225,S,1,Solo,Mr,Unknown
-352,1,male,,0,0,113510,35.0,S,1,Solo,Mr,C
-353,3,male,15.0,1,1,2695,7.2292,C,3,Small,Mr,Unknown
-354,3,male,25.0,1,0,349237,17.8,S,2,Small,Mr,Unknown
-355,3,male,,0,0,2647,7.225,C,1,Solo,Mr,Unknown
-356,3,male,28.0,0,0,345783,9.5,S,1,Solo,Mr,Unknown
-357,1,female,22.0,0,1,113505,55.0,S,2,Small,Miss,E
-358,2,female,38.0,0,0,237671,13.0,S,1,Solo,Miss,Unknown
-359,3,female,,0,0,330931,7.8792,Q,1,Solo,Miss,Unknown
-360,3,female,,0,0,330980,7.8792,Q,1,Solo,Miss,Unknown
-361,3,male,40.0,1,4,347088,27.9,S,6,Large,Mr,Unknown
-362,2,male,29.0,1,0,SC/PARIS 2167,27.7208,C,2,Small,Mr,Unknown
-363,3,female,45.0,0,1,2691,14.4542,C,2,Small,Mrs,Unknown
-364,3,male,35.0,0,0,SOTON/O.Q. 3101310,7.05,S,1,Solo,Mr,Unknown
-365,3,male,,1,0,370365,15.5,Q,2,Small,Mr,Unknown
-366,3,male,30.0,0,0,C 7076,7.25,S,1,Solo,Mr,Unknown
-367,1,female,60.0,1,0,110813,75.25,C,2,Small,Mrs,D
-368,3,female,,0,0,2626,7.2292,C,1,Solo,Mrs,Unknown
-369,3,female,,0,0,14313,7.75,Q,1,Solo,Miss,Unknown
-370,1,female,24.0,0,0,PC 17477,69.3,C,1,Solo,Mrs,B
-371,1,male,25.0,1,0,11765,55.4417,C,2,Small,Mr,E
-372,3,male,18.0,1,0,3101267,6.4958,S,2,Small,Mr,Unknown
-373,3,male,19.0,0,0,323951,8.05,S,1,Solo,Mr,Unknown
-374,1,male,22.0,0,0,PC 17760,135.6333,C,1,Solo,Mr,Unknown
-375,3,female,3.0,3,1,349909,21.075,S,5,Large,Miss,Unknown
-376,1,female,,1,0,PC 17604,82.1708,C,2,Small,Mrs,Unknown
-377,3,female,22.0,0,0,C 7077,7.25,S,1,Solo,Miss,Unknown
-378,1,male,27.0,0,2,113503,211.5,C,3,Small,Mr,C
-379,3,male,20.0,0,0,2648,4.0125,C,1,Solo,Mr,Unknown
-380,3,male,19.0,0,0,347069,7.775,S,1,Solo,Mr,Unknown
-381,1,female,42.0,0,0,PC 17757,227.525,C,1,Solo,Miss,Unknown
-382,3,female,1.0,0,2,2653,15.7417,C,3,Small,Miss,Unknown
-383,3,male,32.0,0,0,STON/O 2. 3101293,7.925,S,1,Solo,Mr,Unknown
-384,1,female,35.0,1,0,113789,52.0,S,2,Small,Mrs,Unknown
-385,3,male,,0,0,349227,7.8958,S,1,Solo,Mr,Unknown
-386,2,male,18.0,0,0,S.O.C. 14879,73.5,S,1,Solo,Mr,Unknown
-387,3,male,1.0,5,2,CA 2144,46.9,S,8,Large,Master,Unknown
-388,2,female,36.0,0,0,27849,13.0,S,1,Solo,Miss,Unknown
-389,3,male,,0,0,367655,7.7292,Q,1,Solo,Mr,Unknown
-390,2,female,17.0,0,0,SC 1748,12.0,C,1,Solo,Miss,Unknown
-391,1,male,36.0,1,2,113760,120.0,S,4,Small,Mr,B
-392,3,male,21.0,0,0,350034,7.7958,S,1,Solo,Mr,Unknown
-393,3,male,28.0,2,0,3101277,7.925,S,3,Small,Mr,Unknown
-394,1,female,23.0,1,0,35273,113.275,C,2,Small,Miss,D
-395,3,female,24.0,0,2,PP 9549,16.7,S,3,Small,Mrs,G
-396,3,male,22.0,0,0,350052,7.7958,S,1,Solo,Mr,Unknown
-397,3,female,31.0,0,0,350407,7.8542,S,1,Solo,Miss,Unknown
-398,2,male,46.0,0,0,28403,26.0,S,1,Solo,Mr,Unknown
-399,2,male,23.0,0,0,244278,10.5,S,1,Solo,Officer,Unknown
-400,2,female,28.0,0,0,240929,12.65,S,1,Solo,Mrs,Unknown
-401,3,male,39.0,0,0,STON/O 2. 3101289,7.925,S,1,Solo,Mr,Unknown
-402,3,male,26.0,0,0,341826,8.05,S,1,Solo,Mr,Unknown
-403,3,female,21.0,1,0,4137,9.825,S,2,Small,Miss,Unknown
-404,3,male,28.0,1,0,STON/O2. 3101279,15.85,S,2,Small,Mr,Unknown
-405,3,female,20.0,0,0,315096,8.6625,S,1,Solo,Miss,Unknown
-406,2,male,34.0,1,0,28664,21.0,S,2,Small,Mr,Unknown
-407,3,male,51.0,0,0,347064,7.75,S,1,Solo,Mr,Unknown
-408,2,male,3.0,1,1,29106,18.75,S,3,Small,Master,Unknown
-409,3,male,21.0,0,0,312992,7.775,S,1,Solo,Mr,Unknown
-410,3,female,,3,1,4133,25.4667,S,5,Large,Miss,Unknown
-411,3,male,,0,0,349222,7.8958,S,1,Solo,Mr,Unknown
-412,3,male,,0,0,394140,6.8583,Q,1,Solo,Mr,Unknown
-413,1,female,33.0,1,0,19928,90.0,Q,2,Small,Miss,C
-414,2,male,,0,0,239853,0.0,S,1,Solo,Mr,Unknown
-415,3,male,44.0,0,0,STON/O 2. 3101269,7.925,S,1,Solo,Mr,Unknown
-416,3,female,,0,0,343095,8.05,S,1,Solo,Mrs,Unknown
-417,2,female,34.0,1,1,28220,32.5,S,3,Small,Mrs,Unknown
-418,2,female,18.0,0,2,250652,13.0,S,3,Small,Miss,Unknown
-419,2,male,30.0,0,0,28228,13.0,S,1,Solo,Mr,Unknown
-420,3,female,10.0,0,2,345773,24.15,S,3,Small,Miss,Unknown
-421,3,male,,0,0,349254,7.8958,C,1,Solo,Mr,Unknown
-422,3,male,21.0,0,0,A/5. 13032,7.7333,Q,1,Solo,Mr,Unknown
-423,3,male,29.0,0,0,315082,7.875,S,1,Solo,Mr,Unknown
-424,3,female,28.0,1,1,347080,14.4,S,3,Small,Mrs,Unknown
-425,3,male,18.0,1,1,370129,20.2125,S,3,Small,Mr,Unknown
-426,3,male,,0,0,A/4. 34244,7.25,S,1,Solo,Mr,Unknown
-427,2,female,28.0,1,0,2003,26.0,S,2,Small,Mrs,Unknown
-428,2,female,19.0,0,0,250655,26.0,S,1,Solo,Miss,Unknown
-429,3,male,,0,0,364851,7.75,Q,1,Solo,Mr,Unknown
-430,3,male,32.0,0,0,SOTON/O.Q. 392078,8.05,S,1,Solo,Mr,E
-431,1,male,28.0,0,0,110564,26.55,S,1,Solo,Mr,C
-432,3,female,,1,0,376564,16.1,S,2,Small,Mrs,Unknown
-433,2,female,42.0,1,0,SC/AH 3085,26.0,S,2,Small,Mrs,Unknown
-434,3,male,17.0,0,0,STON/O 2. 3101274,7.125,S,1,Solo,Mr,Unknown
-435,1,male,50.0,1,0,13507,55.9,S,2,Small,Mr,E
-436,1,female,14.0,1,2,113760,120.0,S,4,Small,Miss,B
-437,3,female,21.0,2,2,W./C. 6608,34.375,S,5,Large,Miss,Unknown
-438,2,female,24.0,2,3,29106,18.75,S,6,Large,Mrs,Unknown
-439,1,male,64.0,1,4,19950,263.0,S,6,Large,Mr,C
-440,2,male,31.0,0,0,C.A. 18723,10.5,S,1,Solo,Mr,Unknown
-441,2,female,45.0,1,1,F.C.C. 13529,26.25,S,3,Small,Mrs,Unknown
-442,3,male,20.0,0,0,345769,9.5,S,1,Solo,Mr,Unknown
-443,3,male,25.0,1,0,347076,7.775,S,2,Small,Mr,Unknown
-444,2,female,28.0,0,0,230434,13.0,S,1,Solo,Miss,Unknown
-445,3,male,,0,0,65306,8.1125,S,1,Solo,Mr,Unknown
-446,1,male,4.0,0,2,33638,81.8583,S,3,Small,Master,A
-447,2,female,13.0,0,1,250644,19.5,S,2,Small,Miss,Unknown
-448,1,male,34.0,0,0,113794,26.55,S,1,Solo,Mr,Unknown
-449,3,female,5.0,2,1,2666,19.2583,C,4,Small,Miss,Unknown
-450,1,male,52.0,0,0,113786,30.5,S,1,Solo,Officer,C
-451,2,male,36.0,1,2,C.A. 34651,27.75,S,4,Small,Mr,Unknown
-452,3,male,,1,0,65303,19.9667,S,2,Small,Mr,Unknown
-453,1,male,30.0,0,0,113051,27.75,C,1,Solo,Mr,C
-454,1,male,49.0,1,0,17453,89.1042,C,2,Small,Mr,C
-455,3,male,,0,0,A/5 2817,8.05,S,1,Solo,Mr,Unknown
-456,3,male,29.0,0,0,349240,7.8958,C,1,Solo,Mr,Unknown
-457,1,male,65.0,0,0,13509,26.55,S,1,Solo,Mr,E
-458,1,female,,1,0,17464,51.8625,S,2,Small,Mrs,D
-459,2,female,50.0,0,0,F.C.C. 13531,10.5,S,1,Solo,Miss,Unknown
-460,3,male,,0,0,371060,7.75,Q,1,Solo,Mr,Unknown
-461,1,male,48.0,0,0,19952,26.55,S,1,Solo,Mr,E
-462,3,male,34.0,0,0,364506,8.05,S,1,Solo,Mr,Unknown
-463,1,male,47.0,0,0,111320,38.5,S,1,Solo,Mr,E
-464,2,male,48.0,0,0,234360,13.0,S,1,Solo,Mr,Unknown
-465,3,male,,0,0,A/S 2816,8.05,S,1,Solo,Mr,Unknown
-466,3,male,38.0,0,0,SOTON/O.Q. 3101306,7.05,S,1,Solo,Mr,Unknown
-467,2,male,,0,0,239853,0.0,S,1,Solo,Mr,Unknown
-468,1,male,56.0,0,0,113792,26.55,S,1,Solo,Mr,Unknown
-469,3,male,,0,0,36209,7.725,Q,1,Solo,Mr,Unknown
-470,3,female,0.75,2,1,2666,19.2583,C,4,Small,Miss,Unknown
-471,3,male,,0,0,323592,7.25,S,1,Solo,Mr,Unknown
-472,3,male,38.0,0,0,315089,8.6625,S,1,Solo,Mr,Unknown
-473,2,female,33.0,1,2,C.A. 34651,27.75,S,4,Small,Mrs,Unknown
-474,2,female,23.0,0,0,SC/AH Basle 541,13.7917,C,1,Solo,Mrs,D
-475,3,female,22.0,0,0,7553,9.8375,S,1,Solo,Miss,Unknown
-476,1,male,,0,0,110465,52.0,S,1,Solo,Mr,A
-477,2,male,34.0,1,0,31027,21.0,S,2,Small,Mr,Unknown
-478,3,male,29.0,1,0,3460,7.0458,S,2,Small,Mr,Unknown
-479,3,male,22.0,0,0,350060,7.5208,S,1,Solo,Mr,Unknown
-480,3,female,2.0,0,1,3101298,12.2875,S,2,Small,Miss,Unknown
-481,3,male,9.0,5,2,CA 2144,46.9,S,8,Large,Master,Unknown
-482,2,male,,0,0,239854,0.0,S,1,Solo,Mr,Unknown
-483,3,male,50.0,0,0,A/5 3594,8.05,S,1,Solo,Mr,Unknown
-484,3,female,63.0,0,0,4134,9.5875,S,1,Solo,Mrs,Unknown
-485,1,male,25.0,1,0,11967,91.0792,C,2,Small,Mr,B
-486,3,female,,3,1,4133,25.4667,S,5,Large,Miss,Unknown
-487,1,female,35.0,1,0,19943,90.0,S,2,Small,Mrs,C
-488,1,male,58.0,0,0,11771,29.7,C,1,Solo,Mr,B
-489,3,male,30.0,0,0,A.5. 18509,8.05,S,1,Solo,Mr,Unknown
-490,3,male,9.0,1,1,C.A. 37671,15.9,S,3,Small,Master,Unknown
-491,3,male,,1,0,65304,19.9667,S,2,Small,Mr,Unknown
-492,3,male,21.0,0,0,SOTON/OQ 3101317,7.25,S,1,Solo,Mr,Unknown
-493,1,male,55.0,0,0,113787,30.5,S,1,Solo,Mr,C
-494,1,male,71.0,0,0,PC 17609,49.5042,C,1,Solo,Mr,Unknown
-495,3,male,21.0,0,0,A/4 45380,8.05,S,1,Solo,Mr,Unknown
-496,3,male,,0,0,2627,14.4583,C,1,Solo,Mr,Unknown
-497,1,female,54.0,1,0,36947,78.2667,C,2,Small,Miss,D
-498,3,male,,0,0,C.A. 6212,15.1,S,1,Solo,Mr,Unknown
-499,1,female,25.0,1,2,113781,151.55,S,4,Small,Mrs,C
-500,3,male,24.0,0,0,350035,7.7958,S,1,Solo,Mr,Unknown
-501,3,male,17.0,0,0,315086,8.6625,S,1,Solo,Mr,Unknown
-502,3,female,21.0,0,0,364846,7.75,Q,1,Solo,Miss,Unknown
-503,3,female,,0,0,330909,7.6292,Q,1,Solo,Miss,Unknown
-504,3,female,37.0,0,0,4135,9.5875,S,1,Solo,Miss,Unknown
-505,1,female,16.0,0,0,110152,86.5,S,1,Solo,Miss,B
-506,1,male,18.0,1,0,PC 17758,108.9,C,2,Small,Mr,C
-507,2,female,33.0,0,2,26360,26.0,S,3,Small,Mrs,Unknown
-508,1,male,,0,0,111427,26.55,S,1,Solo,Mr,Unknown
-509,3,male,28.0,0,0,C 4001,22.525,S,1,Solo,Mr,Unknown
-510,3,male,26.0,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-511,3,male,29.0,0,0,382651,7.75,Q,1,Solo,Mr,Unknown
-512,3,male,,0,0,SOTON/OQ 3101316,8.05,S,1,Solo,Mr,Unknown
-513,1,male,36.0,0,0,PC 17473,26.2875,S,1,Solo,Mr,E
-514,1,female,54.0,1,0,PC 17603,59.4,C,2,Small,Mrs,Unknown
-515,3,male,24.0,0,0,349209,7.4958,S,1,Solo,Mr,Unknown
-516,1,male,47.0,0,0,36967,34.0208,S,1,Solo,Mr,D
-517,2,female,34.0,0,0,C.A. 34260,10.5,S,1,Solo,Mrs,F
-518,3,male,,0,0,371110,24.15,Q,1,Solo,Mr,Unknown
-519,2,female,36.0,1,0,226875,26.0,S,2,Small,Mrs,Unknown
-520,3,male,32.0,0,0,349242,7.8958,S,1,Solo,Mr,Unknown
-521,1,female,30.0,0,0,12749,93.5,S,1,Solo,Miss,B
-522,3,male,22.0,0,0,349252,7.8958,S,1,Solo,Mr,Unknown
-523,3,male,,0,0,2624,7.225,C,1,Solo,Mr,Unknown
-524,1,female,44.0,0,1,111361,57.9792,C,2,Small,Mrs,B
-525,3,male,,0,0,2700,7.2292,C,1,Solo,Mr,Unknown
-526,3,male,40.5,0,0,367232,7.75,Q,1,Solo,Mr,Unknown
-527,2,female,50.0,0,0,W./C. 14258,10.5,S,1,Solo,Miss,Unknown
-528,1,male,,0,0,PC 17483,221.7792,S,1,Solo,Mr,C
-529,3,male,39.0,0,0,3101296,7.925,S,1,Solo,Mr,Unknown
-530,2,male,23.0,2,1,29104,11.5,S,4,Small,Mr,Unknown
-531,2,female,2.0,1,1,26360,26.0,S,3,Small,Miss,Unknown
-532,3,male,,0,0,2641,7.2292,C,1,Solo,Mr,Unknown
-533,3,male,17.0,1,1,2690,7.2292,C,3,Small,Mr,Unknown
-534,3,female,,0,2,2668,22.3583,C,3,Small,Mrs,Unknown
-535,3,female,30.0,0,0,315084,8.6625,S,1,Solo,Miss,Unknown
-536,2,female,7.0,0,2,F.C.C. 13529,26.25,S,3,Small,Miss,Unknown
-537,1,male,45.0,0,0,113050,26.55,S,1,Solo,Officer,B
-538,1,female,30.0,0,0,PC 17761,106.425,C,1,Solo,Miss,Unknown
-539,3,male,,0,0,364498,14.5,S,1,Solo,Mr,Unknown
-540,1,female,22.0,0,2,13568,49.5,C,3,Small,Miss,B
-541,1,female,36.0,0,2,WE/P 5735,71.0,S,3,Small,Miss,B
-542,3,female,9.0,4,2,347082,31.275,S,7,Large,Miss,Unknown
-543,3,female,11.0,4,2,347082,31.275,S,7,Large,Miss,Unknown
-544,2,male,32.0,1,0,2908,26.0,S,2,Small,Mr,Unknown
-545,1,male,50.0,1,0,PC 17761,106.425,C,2,Small,Mr,C
-546,1,male,64.0,0,0,693,26.0,S,1,Solo,Mr,Unknown
-547,2,female,19.0,1,0,2908,26.0,S,2,Small,Mrs,Unknown
-548,2,male,,0,0,SC/PARIS 2146,13.8625,C,1,Solo,Mr,Unknown
-549,3,male,33.0,1,1,363291,20.525,S,3,Small,Mr,Unknown
-550,2,male,8.0,1,1,C.A. 33112,36.75,S,3,Small,Master,Unknown
-551,1,male,17.0,0,2,17421,110.8833,C,3,Small,Mr,C
-552,2,male,27.0,0,0,244358,26.0,S,1,Solo,Mr,Unknown
-553,3,male,,0,0,330979,7.8292,Q,1,Solo,Mr,Unknown
-554,3,male,22.0,0,0,2620,7.225,C,1,Solo,Mr,Unknown
-555,3,female,22.0,0,0,347085,7.775,S,1,Solo,Miss,Unknown
-556,1,male,62.0,0,0,113807,26.55,S,1,Solo,Mr,Unknown
-557,1,female,48.0,1,0,11755,39.6,C,2,Small,Royalty,A
-558,1,male,,0,0,PC 17757,227.525,C,1,Solo,Mr,Unknown
-559,1,female,39.0,1,1,110413,79.65,S,3,Small,Mrs,E
-560,3,female,36.0,1,0,345572,17.4,S,2,Small,Mrs,Unknown
-561,3,male,,0,0,372622,7.75,Q,1,Solo,Mr,Unknown
-562,3,male,40.0,0,0,349251,7.8958,S,1,Solo,Mr,Unknown
-563,2,male,28.0,0,0,218629,13.5,S,1,Solo,Mr,Unknown
-564,3,male,,0,0,SOTON/OQ 392082,8.05,S,1,Solo,Mr,Unknown
-565,3,female,,0,0,SOTON/O.Q. 392087,8.05,S,1,Solo,Miss,Unknown
-566,3,male,24.0,2,0,A/4 48871,24.15,S,3,Small,Mr,Unknown
-567,3,male,19.0,0,0,349205,7.8958,S,1,Solo,Mr,Unknown
-568,3,female,29.0,0,4,349909,21.075,S,5,Large,Mrs,Unknown
-569,3,male,,0,0,2686,7.2292,C,1,Solo,Mr,Unknown
-570,3,male,32.0,0,0,350417,7.8542,S,1,Solo,Mr,Unknown
-571,2,male,62.0,0,0,S.W./PP 752,10.5,S,1,Solo,Mr,Unknown
-572,1,female,53.0,2,0,11769,51.4792,S,3,Small,Mrs,C
-573,1,male,36.0,0,0,PC 17474,26.3875,S,1,Solo,Mr,E
-574,3,female,,0,0,14312,7.75,Q,1,Solo,Miss,Unknown
-575,3,male,16.0,0,0,A/4. 20589,8.05,S,1,Solo,Mr,Unknown
-576,3,male,19.0,0,0,358585,14.5,S,1,Solo,Mr,Unknown
-577,2,female,34.0,0,0,243880,13.0,S,1,Solo,Miss,Unknown
-578,1,female,39.0,1,0,13507,55.9,S,2,Small,Mrs,E
-579,3,female,,1,0,2689,14.4583,C,2,Small,Mrs,Unknown
-580,3,male,32.0,0,0,STON/O 2. 3101286,7.925,S,1,Solo,Mr,Unknown
-581,2,female,25.0,1,1,237789,30.0,S,3,Small,Miss,Unknown
-582,1,female,39.0,1,1,17421,110.8833,C,3,Small,Mrs,C
-583,2,male,54.0,0,0,28403,26.0,S,1,Solo,Mr,Unknown
-584,1,male,36.0,0,0,13049,40.125,C,1,Solo,Mr,A
-585,3,male,,0,0,3411,8.7125,C,1,Solo,Mr,Unknown
-586,1,female,18.0,0,2,110413,79.65,S,3,Small,Miss,E
-587,2,male,47.0,0,0,237565,15.0,S,1,Solo,Mr,Unknown
-588,1,male,60.0,1,1,13567,79.2,C,3,Small,Mr,B
-589,3,male,22.0,0,0,14973,8.05,S,1,Solo,Mr,Unknown
-590,3,male,,0,0,A./5. 3235,8.05,S,1,Solo,Mr,Unknown
-591,3,male,35.0,0,0,STON/O 2. 3101273,7.125,S,1,Solo,Mr,Unknown
-592,1,female,52.0,1,0,36947,78.2667,C,2,Small,Mrs,D
-593,3,male,47.0,0,0,A/5 3902,7.25,S,1,Solo,Mr,Unknown
-594,3,female,,0,2,364848,7.75,Q,3,Small,Miss,Unknown
-595,2,male,37.0,1,0,SC/AH 29037,26.0,S,2,Small,Mr,Unknown
-596,3,male,36.0,1,1,345773,24.15,S,3,Small,Mr,Unknown
-597,2,female,,0,0,248727,33.0,S,1,Solo,Miss,Unknown
-598,3,male,49.0,0,0,LINE,0.0,S,1,Solo,Mr,Unknown
-599,3,male,,0,0,2664,7.225,C,1,Solo,Mr,Unknown
-600,1,male,49.0,1,0,PC 17485,56.9292,C,2,Small,Royalty,A
-601,2,female,24.0,2,1,243847,27.0,S,4,Small,Mrs,Unknown
-602,3,male,,0,0,349214,7.8958,S,1,Solo,Mr,Unknown
-603,1,male,,0,0,113796,42.4,S,1,Solo,Mr,Unknown
-604,3,male,44.0,0,0,364511,8.05,S,1,Solo,Mr,Unknown
-605,1,male,35.0,0,0,111426,26.55,C,1,Solo,Mr,Unknown
-606,3,male,36.0,1,0,349910,15.55,S,2,Small,Mr,Unknown
-607,3,male,30.0,0,0,349246,7.8958,S,1,Solo,Mr,Unknown
-608,1,male,27.0,0,0,113804,30.5,S,1,Solo,Mr,Unknown
-609,2,female,22.0,1,2,SC/Paris 2123,41.5792,C,4,Small,Mrs,Unknown
-610,1,female,40.0,0,0,PC 17582,153.4625,S,1,Solo,Miss,C
-611,3,female,39.0,1,5,347082,31.275,S,7,Large,Mrs,Unknown
-612,3,male,,0,0,SOTON/O.Q. 3101305,7.05,S,1,Solo,Mr,Unknown
-613,3,female,,1,0,367230,15.5,Q,2,Small,Miss,Unknown
-614,3,male,,0,0,370377,7.75,Q,1,Solo,Mr,Unknown
-615,3,male,35.0,0,0,364512,8.05,S,1,Solo,Mr,Unknown
-616,2,female,24.0,1,2,220845,65.0,S,4,Small,Miss,Unknown
-617,3,male,34.0,1,1,347080,14.4,S,3,Small,Mr,Unknown
-618,3,female,26.0,1,0,A/5. 3336,16.1,S,2,Small,Mrs,Unknown
-619,2,female,4.0,2,1,230136,39.0,S,4,Small,Miss,F
-620,2,male,26.0,0,0,31028,10.5,S,1,Solo,Mr,Unknown
-621,3,male,27.0,1,0,2659,14.4542,C,2,Small,Mr,Unknown
-622,1,male,42.0,1,0,11753,52.5542,S,2,Small,Mr,D
-623,3,male,20.0,1,1,2653,15.7417,C,3,Small,Mr,Unknown
-624,3,male,21.0,0,0,350029,7.8542,S,1,Solo,Mr,Unknown
-625,3,male,21.0,0,0,54636,16.1,S,1,Solo,Mr,Unknown
-626,1,male,61.0,0,0,36963,32.3208,S,1,Solo,Mr,D
-627,2,male,57.0,0,0,219533,12.35,Q,1,Solo,Officer,Unknown
-628,1,female,21.0,0,0,13502,77.9583,S,1,Solo,Miss,D
-629,3,male,26.0,0,0,349224,7.8958,S,1,Solo,Mr,Unknown
-630,3,male,,0,0,334912,7.7333,Q,1,Solo,Mr,Unknown
-631,1,male,80.0,0,0,27042,30.0,S,1,Solo,Mr,A
-632,3,male,51.0,0,0,347743,7.0542,S,1,Solo,Mr,Unknown
-633,1,male,32.0,0,0,13214,30.5,C,1,Solo,Officer,B
-634,1,male,,0,0,112052,0.0,S,1,Solo,Mr,Unknown
-635,3,female,9.0,3,2,347088,27.9,S,6,Large,Miss,Unknown
-636,2,female,28.0,0,0,237668,13.0,S,1,Solo,Miss,Unknown
-637,3,male,32.0,0,0,STON/O 2. 3101292,7.925,S,1,Solo,Mr,Unknown
-638,2,male,31.0,1,1,C.A. 31921,26.25,S,3,Small,Mr,Unknown
-639,3,female,41.0,0,5,3101295,39.6875,S,6,Large,Mrs,Unknown
-640,3,male,,1,0,376564,16.1,S,2,Small,Mr,Unknown
-641,3,male,20.0,0,0,350050,7.8542,S,1,Solo,Mr,Unknown
-642,1,female,24.0,0,0,PC 17477,69.3,C,1,Solo,Miss,B
-643,3,female,2.0,3,2,347088,27.9,S,6,Large,Miss,Unknown
-644,3,male,,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-645,3,female,0.75,2,1,2666,19.2583,C,4,Small,Miss,Unknown
-646,1,male,48.0,1,0,PC 17572,76.7292,C,2,Small,Mr,D
-647,3,male,19.0,0,0,349231,7.8958,S,1,Solo,Mr,Unknown
-648,1,male,56.0,0,0,13213,35.5,C,1,Solo,Officer,A
-649,3,male,,0,0,S.O./P.P. 751,7.55,S,1,Solo,Mr,Unknown
-650,3,female,23.0,0,0,CA. 2314,7.55,S,1,Solo,Miss,Unknown
-651,3,male,,0,0,349221,7.8958,S,1,Solo,Mr,Unknown
-652,2,female,18.0,0,1,231919,23.0,S,2,Small,Miss,Unknown
-653,3,male,21.0,0,0,8475,8.4333,S,1,Solo,Mr,Unknown
-654,3,female,,0,0,330919,7.8292,Q,1,Solo,Miss,Unknown
-655,3,female,18.0,0,0,365226,6.75,Q,1,Solo,Miss,Unknown
-656,2,male,24.0,2,0,S.O.C. 14879,73.5,S,3,Small,Mr,Unknown
-657,3,male,,0,0,349223,7.8958,S,1,Solo,Mr,Unknown
-658,3,female,32.0,1,1,364849,15.5,Q,3,Small,Mrs,Unknown
-659,2,male,23.0,0,0,29751,13.0,S,1,Solo,Mr,Unknown
-660,1,male,58.0,0,2,35273,113.275,C,3,Small,Mr,D
-661,1,male,50.0,2,0,PC 17611,133.65,S,3,Small,Officer,Unknown
-662,3,male,40.0,0,0,2623,7.225,C,1,Solo,Mr,Unknown
-663,1,male,47.0,0,0,5727,25.5875,S,1,Solo,Mr,E
-664,3,male,36.0,0,0,349210,7.4958,S,1,Solo,Mr,Unknown
-665,3,male,20.0,1,0,STON/O 2. 3101285,7.925,S,2,Small,Mr,Unknown
-666,2,male,32.0,2,0,S.O.C. 14879,73.5,S,3,Small,Mr,Unknown
-667,2,male,25.0,0,0,234686,13.0,S,1,Solo,Mr,Unknown
-668,3,male,,0,0,312993,7.775,S,1,Solo,Mr,Unknown
-669,3,male,43.0,0,0,A/5 3536,8.05,S,1,Solo,Mr,Unknown
-670,1,female,,1,0,19996,52.0,S,2,Small,Mrs,C
-671,2,female,40.0,1,1,29750,39.0,S,3,Small,Mrs,Unknown
-672,1,male,31.0,1,0,F.C. 12750,52.0,S,2,Small,Mr,B
-673,2,male,70.0,0,0,C.A. 24580,10.5,S,1,Solo,Mr,Unknown
-674,2,male,31.0,0,0,244270,13.0,S,1,Solo,Mr,Unknown
-675,2,male,,0,0,239856,0.0,S,1,Solo,Mr,Unknown
-676,3,male,18.0,0,0,349912,7.775,S,1,Solo,Mr,Unknown
-677,3,male,24.5,0,0,342826,8.05,S,1,Solo,Mr,Unknown
-678,3,female,18.0,0,0,4138,9.8417,S,1,Solo,Miss,Unknown
-679,3,female,43.0,1,6,CA 2144,46.9,S,8,Large,Mrs,Unknown
-680,1,male,36.0,0,1,PC 17755,512.3292,C,2,Small,Mr,B
-681,3,female,,0,0,330935,8.1375,Q,1,Solo,Miss,Unknown
-682,1,male,27.0,0,0,PC 17572,76.7292,C,1,Solo,Mr,D
-683,3,male,20.0,0,0,6563,9.225,S,1,Solo,Mr,Unknown
-684,3,male,14.0,5,2,CA 2144,46.9,S,8,Large,Mr,Unknown
-685,2,male,60.0,1,1,29750,39.0,S,3,Small,Mr,Unknown
-686,2,male,25.0,1,2,SC/Paris 2123,41.5792,C,4,Small,Mr,Unknown
-687,3,male,14.0,4,1,3101295,39.6875,S,6,Large,Mr,Unknown
-688,3,male,19.0,0,0,349228,10.1708,S,1,Solo,Mr,Unknown
-689,3,male,18.0,0,0,350036,7.7958,S,1,Solo,Mr,Unknown
-690,1,female,15.0,0,1,24160,211.3375,S,2,Small,Miss,B
-691,1,male,31.0,1,0,17474,57.0,S,2,Small,Mr,B
-692,3,female,4.0,0,1,349256,13.4167,C,2,Small,Miss,Unknown
-693,3,male,,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-694,3,male,25.0,0,0,2672,7.225,C,1,Solo,Mr,Unknown
-695,1,male,60.0,0,0,113800,26.55,S,1,Solo,Officer,Unknown
-696,2,male,52.0,0,0,248731,13.5,S,1,Solo,Mr,Unknown
-697,3,male,44.0,0,0,363592,8.05,S,1,Solo,Mr,Unknown
-698,3,female,,0,0,35852,7.7333,Q,1,Solo,Miss,Unknown
-699,1,male,49.0,1,1,17421,110.8833,C,3,Small,Mr,C
-700,3,male,42.0,0,0,348121,7.65,S,1,Solo,Mr,F
-701,1,female,18.0,1,0,PC 17757,227.525,C,2,Small,Mrs,C
-702,1,male,35.0,0,0,PC 17475,26.2875,S,1,Solo,Mr,E
-703,3,female,18.0,0,1,2691,14.4542,C,2,Small,Miss,Unknown
-704,3,male,25.0,0,0,36864,7.7417,Q,1,Solo,Mr,Unknown
-705,3,male,26.0,1,0,350025,7.8542,S,2,Small,Mr,Unknown
-706,2,male,39.0,0,0,250655,26.0,S,1,Solo,Mr,Unknown
-707,2,female,45.0,0,0,223596,13.5,S,1,Solo,Mrs,Unknown
-708,1,male,42.0,0,0,PC 17476,26.2875,S,1,Solo,Mr,E
-709,1,female,22.0,0,0,113781,151.55,S,1,Solo,Miss,Unknown
-710,3,male,,1,1,2661,15.2458,C,3,Small,Master,Unknown
-711,1,female,24.0,0,0,PC 17482,49.5042,C,1,Solo,Miss,C
-712,1,male,,0,0,113028,26.55,S,1,Solo,Mr,C
-713,1,male,48.0,1,0,19996,52.0,S,2,Small,Mr,C
-714,3,male,29.0,0,0,7545,9.4833,S,1,Solo,Mr,Unknown
-715,2,male,52.0,0,0,250647,13.0,S,1,Solo,Mr,Unknown
-716,3,male,19.0,0,0,348124,7.65,S,1,Solo,Mr,F
-717,1,female,38.0,0,0,PC 17757,227.525,C,1,Solo,Miss,C
-718,2,female,27.0,0,0,34218,10.5,S,1,Solo,Miss,E
-719,3,male,,0,0,36568,15.5,Q,1,Solo,Mr,Unknown
-720,3,male,33.0,0,0,347062,7.775,S,1,Solo,Mr,Unknown
-721,2,female,6.0,0,1,248727,33.0,S,2,Small,Miss,Unknown
-722,3,male,17.0,1,0,350048,7.0542,S,2,Small,Mr,Unknown
-723,2,male,34.0,0,0,12233,13.0,S,1,Solo,Mr,Unknown
-724,2,male,50.0,0,0,250643,13.0,S,1,Solo,Mr,Unknown
-725,1,male,27.0,1,0,113806,53.1,S,2,Small,Mr,E
-726,3,male,20.0,0,0,315094,8.6625,S,1,Solo,Mr,Unknown
-727,2,female,30.0,3,0,31027,21.0,S,4,Small,Mrs,Unknown
-728,3,female,,0,0,36866,7.7375,Q,1,Solo,Miss,Unknown
-729,2,male,25.0,1,0,236853,26.0,S,2,Small,Mr,Unknown
-730,3,female,25.0,1,0,STON/O2. 3101271,7.925,S,2,Small,Miss,Unknown
-731,1,female,29.0,0,0,24160,211.3375,S,1,Solo,Miss,B
-732,3,male,11.0,0,0,2699,18.7875,C,1,Solo,Mr,Unknown
-733,2,male,,0,0,239855,0.0,S,1,Solo,Mr,Unknown
-734,2,male,23.0,0,0,28425,13.0,S,1,Solo,Mr,Unknown
-735,2,male,23.0,0,0,233639,13.0,S,1,Solo,Mr,Unknown
-736,3,male,28.5,0,0,54636,16.1,S,1,Solo,Mr,Unknown
-737,3,female,48.0,1,3,W./C. 6608,34.375,S,5,Large,Mrs,Unknown
-738,1,male,35.0,0,0,PC 17755,512.3292,C,1,Solo,Mr,B
-739,3,male,,0,0,349201,7.8958,S,1,Solo,Mr,Unknown
-740,3,male,,0,0,349218,7.8958,S,1,Solo,Mr,Unknown
-741,1,male,,0,0,16988,30.0,S,1,Solo,Mr,D
-742,1,male,36.0,1,0,19877,78.85,S,2,Small,Mr,C
-743,1,female,21.0,2,2,PC 17608,262.375,C,5,Large,Miss,B
-744,3,male,24.0,1,0,376566,16.1,S,2,Small,Mr,Unknown
-745,3,male,31.0,0,0,STON/O 2. 3101288,7.925,S,1,Solo,Mr,Unknown
-746,1,male,70.0,1,1,WE/P 5735,71.0,S,3,Small,Officer,B
-747,3,male,16.0,1,1,C.A. 2673,20.25,S,3,Small,Mr,Unknown
-748,2,female,30.0,0,0,250648,13.0,S,1,Solo,Miss,Unknown
-749,1,male,19.0,1,0,113773,53.1,S,2,Small,Mr,D
-750,3,male,31.0,0,0,335097,7.75,Q,1,Solo,Mr,Unknown
-751,2,female,4.0,1,1,29103,23.0,S,3,Small,Miss,Unknown
-752,3,male,6.0,0,1,392096,12.475,S,2,Small,Master,E
-753,3,male,33.0,0,0,345780,9.5,S,1,Solo,Mr,Unknown
-754,3,male,23.0,0,0,349204,7.8958,S,1,Solo,Mr,Unknown
-755,2,female,48.0,1,2,220845,65.0,S,4,Small,Mrs,Unknown
-756,2,male,0.67,1,1,250649,14.5,S,3,Small,Master,Unknown
-757,3,male,28.0,0,0,350042,7.7958,S,1,Solo,Mr,Unknown
-758,2,male,18.0,0,0,29108,11.5,S,1,Solo,Mr,Unknown
-759,3,male,34.0,0,0,363294,8.05,S,1,Solo,Mr,Unknown
-760,1,female,33.0,0,0,110152,86.5,S,1,Solo,Royalty,B
-761,3,male,,0,0,358585,14.5,S,1,Solo,Mr,Unknown
-762,3,male,41.0,0,0,SOTON/O2 3101272,7.125,S,1,Solo,Mr,Unknown
-763,3,male,20.0,0,0,2663,7.2292,C,1,Solo,Mr,Unknown
-764,1,female,36.0,1,2,113760,120.0,S,4,Small,Mrs,B
-765,3,male,16.0,0,0,347074,7.775,S,1,Solo,Mr,Unknown
-766,1,female,51.0,1,0,13502,77.9583,S,2,Small,Mrs,D
-767,1,male,,0,0,112379,39.6,C,1,Solo,Officer,Unknown
-768,3,female,30.5,0,0,364850,7.75,Q,1,Solo,Miss,Unknown
-769,3,male,,1,0,371110,24.15,Q,2,Small,Mr,Unknown
-770,3,male,32.0,0,0,8471,8.3625,S,1,Solo,Mr,Unknown
-771,3,male,24.0,0,0,345781,9.5,S,1,Solo,Mr,Unknown
-772,3,male,48.0,0,0,350047,7.8542,S,1,Solo,Mr,Unknown
-773,2,female,57.0,0,0,S.O./P.P. 3,10.5,S,1,Solo,Mrs,E
-774,3,male,,0,0,2674,7.225,C,1,Solo,Mr,Unknown
-775,2,female,54.0,1,3,29105,23.0,S,5,Large,Mrs,Unknown
-776,3,male,18.0,0,0,347078,7.75,S,1,Solo,Mr,Unknown
-777,3,male,,0,0,383121,7.75,Q,1,Solo,Mr,F
-778,3,female,5.0,0,0,364516,12.475,S,1,Solo,Miss,Unknown
-779,3,male,,0,0,36865,7.7375,Q,1,Solo,Mr,Unknown
-780,1,female,43.0,0,1,24160,211.3375,S,2,Small,Mrs,B
-781,3,female,13.0,0,0,2687,7.2292,C,1,Solo,Miss,Unknown
-782,1,female,17.0,1,0,17474,57.0,S,2,Small,Mrs,B
-783,1,male,29.0,0,0,113501,30.0,S,1,Solo,Mr,D
-784,3,male,,1,2,W./C. 6607,23.45,S,4,Small,Mr,Unknown
-785,3,male,25.0,0,0,SOTON/O.Q. 3101312,7.05,S,1,Solo,Mr,Unknown
-786,3,male,25.0,0,0,374887,7.25,S,1,Solo,Mr,Unknown
-787,3,female,18.0,0,0,3101265,7.4958,S,1,Solo,Miss,Unknown
-788,3,male,8.0,4,1,382652,29.125,Q,6,Large,Master,Unknown
-789,3,male,1.0,1,2,C.A. 2315,20.575,S,4,Small,Master,Unknown
-790,1,male,46.0,0,0,PC 17593,79.2,C,1,Solo,Mr,B
-791,3,male,,0,0,12460,7.75,Q,1,Solo,Mr,Unknown
-792,2,male,16.0,0,0,239865,26.0,S,1,Solo,Mr,Unknown
-793,3,female,,8,2,CA. 2343,69.55,S,11,Large,Miss,Unknown
-794,1,male,,0,0,PC 17600,30.6958,C,1,Solo,Mr,Unknown
-795,3,male,25.0,0,0,349203,7.8958,S,1,Solo,Mr,Unknown
-796,2,male,39.0,0,0,28213,13.0,S,1,Solo,Mr,Unknown
-797,1,female,49.0,0,0,17465,25.9292,S,1,Solo,Officer,D
-798,3,female,31.0,0,0,349244,8.6833,S,1,Solo,Mrs,Unknown
-799,3,male,30.0,0,0,2685,7.2292,C,1,Solo,Mr,Unknown
-800,3,female,30.0,1,1,345773,24.15,S,3,Small,Mrs,Unknown
-801,2,male,34.0,0,0,250647,13.0,S,1,Solo,Mr,Unknown
-802,2,female,31.0,1,1,C.A. 31921,26.25,S,3,Small,Mrs,Unknown
-803,1,male,11.0,1,2,113760,120.0,S,4,Small,Master,B
-804,3,male,0.42,0,1,2625,8.5167,C,2,Small,Master,Unknown
-805,3,male,27.0,0,0,347089,6.975,S,1,Solo,Mr,Unknown
-806,3,male,31.0,0,0,347063,7.775,S,1,Solo,Mr,Unknown
-807,1,male,39.0,0,0,112050,0.0,S,1,Solo,Mr,A
-808,3,female,18.0,0,0,347087,7.775,S,1,Solo,Miss,Unknown
-809,2,male,39.0,0,0,248723,13.0,S,1,Solo,Mr,Unknown
-810,1,female,33.0,1,0,113806,53.1,S,2,Small,Mrs,E
-811,3,male,26.0,0,0,3474,7.8875,S,1,Solo,Mr,Unknown
-812,3,male,39.0,0,0,A/4 48871,24.15,S,1,Solo,Mr,Unknown
-813,2,male,35.0,0,0,28206,10.5,S,1,Solo,Mr,Unknown
-814,3,female,6.0,4,2,347082,31.275,S,7,Large,Miss,Unknown
-815,3,male,30.5,0,0,364499,8.05,S,1,Solo,Mr,Unknown
-816,1,male,,0,0,112058,0.0,S,1,Solo,Mr,B
-817,3,female,23.0,0,0,STON/O2. 3101290,7.925,S,1,Solo,Miss,Unknown
-818,2,male,31.0,1,1,S.C./PARIS 2079,37.0042,C,3,Small,Mr,Unknown
-819,3,male,43.0,0,0,C 7075,6.45,S,1,Solo,Mr,Unknown
-820,3,male,10.0,3,2,347088,27.9,S,6,Large,Master,Unknown
-821,1,female,52.0,1,1,12749,93.5,S,3,Small,Mrs,B
-822,3,male,27.0,0,0,315098,8.6625,S,1,Solo,Mr,Unknown
-823,1,male,38.0,0,0,19972,0.0,S,1,Solo,Royalty,Unknown
-824,3,female,27.0,0,1,392096,12.475,S,2,Small,Mrs,E
-825,3,male,2.0,4,1,3101295,39.6875,S,6,Large,Master,Unknown
-826,3,male,,0,0,368323,6.95,Q,1,Solo,Mr,Unknown
-827,3,male,,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-828,2,male,1.0,0,2,S.C./PARIS 2079,37.0042,C,3,Small,Master,Unknown
-829,3,male,,0,0,367228,7.75,Q,1,Solo,Mr,Unknown
-830,1,female,62.0,0,0,113572,80.0,,1,Solo,Mrs,B
-831,3,female,15.0,1,0,2659,14.4542,C,2,Small,Mrs,Unknown
-832,2,male,0.83,1,1,29106,18.75,S,3,Small,Master,Unknown
-833,3,male,,0,0,2671,7.2292,C,1,Solo,Mr,Unknown
-834,3,male,23.0,0,0,347468,7.8542,S,1,Solo,Mr,Unknown
-835,3,male,18.0,0,0,2223,8.3,S,1,Solo,Mr,Unknown
-836,1,female,39.0,1,1,PC 17756,83.1583,C,3,Small,Miss,E
-837,3,male,21.0,0,0,315097,8.6625,S,1,Solo,Mr,Unknown
-838,3,male,,0,0,392092,8.05,S,1,Solo,Mr,Unknown
-839,3,male,32.0,0,0,1601,56.4958,S,1,Solo,Mr,Unknown
-840,1,male,,0,0,11774,29.7,C,1,Solo,Mr,C
-841,3,male,20.0,0,0,SOTON/O2 3101287,7.925,S,1,Solo,Mr,Unknown
-842,2,male,16.0,0,0,S.O./P.P. 3,10.5,S,1,Solo,Mr,Unknown
-843,1,female,30.0,0,0,113798,31.0,C,1,Solo,Miss,Unknown
-844,3,male,34.5,0,0,2683,6.4375,C,1,Solo,Mr,Unknown
-845,3,male,17.0,0,0,315090,8.6625,S,1,Solo,Mr,Unknown
-846,3,male,42.0,0,0,C.A. 5547,7.55,S,1,Solo,Mr,Unknown
-847,3,male,,8,2,CA. 2343,69.55,S,11,Large,Mr,Unknown
-848,3,male,35.0,0,0,349213,7.8958,C,1,Solo,Mr,Unknown
-849,2,male,28.0,0,1,248727,33.0,S,2,Small,Officer,Unknown
-850,1,female,,1,0,17453,89.1042,C,2,Small,Mrs,C
-851,3,male,4.0,4,2,347082,31.275,S,7,Large,Master,Unknown
-852,3,male,74.0,0,0,347060,7.775,S,1,Solo,Mr,Unknown
-853,3,female,9.0,1,1,2678,15.2458,C,3,Small,Miss,Unknown
-854,1,female,16.0,0,1,PC 17592,39.4,S,2,Small,Miss,D
-855,2,female,44.0,1,0,244252,26.0,S,2,Small,Mrs,Unknown
-856,3,female,18.0,0,1,392091,9.35,S,2,Small,Mrs,Unknown
-857,1,female,45.0,1,1,36928,164.8667,S,3,Small,Mrs,Unknown
-858,1,male,51.0,0,0,113055,26.55,S,1,Solo,Mr,E
-859,3,female,24.0,0,3,2666,19.2583,C,4,Small,Mrs,Unknown
-860,3,male,,0,0,2629,7.2292,C,1,Solo,Mr,Unknown
-861,3,male,41.0,2,0,350026,14.1083,S,3,Small,Mr,Unknown
-862,2,male,21.0,1,0,28134,11.5,S,2,Small,Mr,Unknown
-863,1,female,48.0,0,0,17466,25.9292,S,1,Solo,Mrs,D
-864,3,female,,8,2,CA. 2343,69.55,S,11,Large,Miss,Unknown
-865,2,male,24.0,0,0,233866,13.0,S,1,Solo,Mr,Unknown
-866,2,female,42.0,0,0,236852,13.0,S,1,Solo,Mrs,Unknown
-867,2,female,27.0,1,0,SC/PARIS 2149,13.8583,C,2,Small,Miss,Unknown
-868,1,male,31.0,0,0,PC 17590,50.4958,S,1,Solo,Mr,A
-869,3,male,,0,0,345777,9.5,S,1,Solo,Mr,Unknown
-870,3,male,4.0,1,1,347742,11.1333,S,3,Small,Master,Unknown
-871,3,male,26.0,0,0,349248,7.8958,S,1,Solo,Mr,Unknown
-872,1,female,47.0,1,1,11751,52.5542,S,3,Small,Mrs,D
-873,1,male,33.0,0,0,695,5.0,S,1,Solo,Mr,B
-874,3,male,47.0,0,0,345765,9.0,S,1,Solo,Mr,Unknown
-875,2,female,28.0,1,0,P/PP 3381,24.0,C,2,Small,Mrs,Unknown
-876,3,female,15.0,0,0,2667,7.225,C,1,Solo,Miss,Unknown
-877,3,male,20.0,0,0,7534,9.8458,S,1,Solo,Mr,Unknown
-878,3,male,19.0,0,0,349212,7.8958,S,1,Solo,Mr,Unknown
-879,3,male,,0,0,349217,7.8958,S,1,Solo,Mr,Unknown
-880,1,female,56.0,0,1,11767,83.1583,C,2,Small,Mrs,C
-881,2,female,25.0,0,1,230433,26.0,S,2,Small,Mrs,Unknown
-882,3,male,33.0,0,0,349257,7.8958,S,1,Solo,Mr,Unknown
-883,3,female,22.0,0,0,7552,10.5167,S,1,Solo,Miss,Unknown
-884,2,male,28.0,0,0,C.A./SOTON 34068,10.5,S,1,Solo,Mr,Unknown
-885,3,male,25.0,0,0,SOTON/OQ 392076,7.05,S,1,Solo,Mr,Unknown
-886,3,female,39.0,0,5,382652,29.125,Q,6,Large,Mrs,Unknown
-887,2,male,27.0,0,0,211536,13.0,S,1,Solo,Officer,Unknown
-888,1,female,19.0,0,0,112053,30.0,S,1,Solo,Miss,B
-889,3,female,,1,2,W./C. 6607,23.45,S,4,Small,Miss,Unknown
-890,1,male,26.0,0,0,111369,30.0,C,1,Solo,Mr,C
-891,3,male,32.0,0,0,370376,7.75,Q,1,Solo,Mr,Unknown
+PassengerId,Survived,Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked,Title,FamSize,FamType,TicketGroupSize,FareBinned,Deck
+1,0,3,male,22.0,1,0,A/5 21171,7.25,S,Mr,2,Small,OTHER,Very Low,Unknown
+2,1,1,female,38.0,1,0,PC 17599,71.2833,C,Mrs,2,Small,OTHER,Low,C
+3,1,3,female,26.0,0,0,STON/O2. 3101282,7.925,S,Miss,1,Solo,OTHER,Very Low,Unknown
+4,1,1,female,35.0,1,0,113803,53.1,S,Mrs,2,Small,OTHER,Low,C
+5,0,3,male,35.0,0,0,373450,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+6,0,3,male,,0,0,330877,8.4583,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+7,0,1,male,54.0,0,0,17463,51.8625,S,Mr,1,Solo,OTHER,Low,E
+8,0,3,male,2.0,3,1,349909,21.075,S,Master,5,Large,349909,Very Low,Unknown
+9,1,3,female,27.0,0,2,347742,11.1333,S,Mrs,3,Small,OTHER,Very Low,Unknown
+10,1,2,female,14.0,1,0,237736,30.0708,C,Mrs,2,Small,OTHER,Very Low,Unknown
+11,1,3,female,4.0,1,1,PP 9549,16.7,S,Miss,3,Small,OTHER,Very Low,G
+12,1,1,female,58.0,0,0,113783,26.55,S,Miss,1,Solo,OTHER,Very Low,C
+13,0,3,male,20.0,0,0,A/5. 2151,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+14,0,3,male,39.0,1,5,347082,31.275,S,Mr,7,Large,347082,Very Low,Unknown
+15,0,3,female,14.0,0,0,350406,7.8542,S,Miss,1,Solo,OTHER,Very Low,Unknown
+16,1,2,female,55.0,0,0,248706,16.0,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+17,0,3,male,2.0,4,1,382652,29.125,Q,Master,6,Large,382652,Very Low,Unknown
+18,1,2,male,,0,0,244373,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+19,0,3,female,31.0,1,0,345763,18.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+20,1,3,female,,0,0,2649,7.225,C,Mrs,1,Solo,OTHER,Very Low,Unknown
+21,0,2,male,35.0,0,0,239865,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+22,1,2,male,34.0,0,0,248698,13.0,S,Mr,1,Solo,OTHER,Very Low,D
+23,1,3,female,15.0,0,0,330923,8.0292,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+24,1,1,male,28.0,0,0,113788,35.5,S,Mr,1,Solo,OTHER,Very Low,A
+25,0,3,female,8.0,3,1,349909,21.075,S,Miss,5,Large,349909,Very Low,Unknown
+26,1,3,female,38.0,1,5,347077,31.3875,S,Mrs,7,Large,347077,Very Low,Unknown
+27,0,3,male,,0,0,2631,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+28,0,1,male,19.0,3,2,19950,263.0,S,Mr,6,Large,19950,High,C
+29,1,3,female,,0,0,330959,7.8792,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+30,0,3,male,,0,0,349216,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+31,0,1,male,40.0,0,0,PC 17601,27.7208,C,Royalty,1,Solo,OTHER,Very Low,Unknown
+32,1,1,female,,1,0,PC 17569,146.5208,C,Mrs,2,Small,OTHER,Medium,B
+33,1,3,female,,0,0,335677,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+34,0,2,male,66.0,0,0,C.A. 24579,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+35,0,1,male,28.0,1,0,PC 17604,82.1708,C,Mr,2,Small,OTHER,Low,Unknown
+36,0,1,male,42.0,1,0,113789,52.0,S,Mr,2,Small,OTHER,Low,Unknown
+37,1,3,male,,0,0,2677,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+38,0,3,male,21.0,0,0,A./5. 2152,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+39,0,3,female,18.0,2,0,345764,18.0,S,Miss,3,Small,OTHER,Very Low,Unknown
+40,1,3,female,14.0,1,0,2651,11.2417,C,Miss,2,Small,OTHER,Very Low,Unknown
+41,0,3,female,40.0,1,0,7546,9.475,S,Mrs,2,Small,OTHER,Very Low,Unknown
+42,0,2,female,27.0,1,0,11668,21.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+43,0,3,male,,0,0,349253,7.8958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+44,1,2,female,3.0,1,2,SC/Paris 2123,41.5792,C,Miss,4,Small,OTHER,Very Low,Unknown
+45,1,3,female,19.0,0,0,330958,7.8792,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+46,0,3,male,,0,0,S.C./A.4. 23567,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+47,0,3,male,,1,0,370371,15.5,Q,Mr,2,Small,OTHER,Very Low,Unknown
+48,1,3,female,,0,0,14311,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+49,0,3,male,,2,0,2662,21.6792,C,Mr,3,Small,OTHER,Very Low,Unknown
+50,0,3,female,18.0,1,0,349237,17.8,S,Mrs,2,Small,OTHER,Very Low,Unknown
+51,0,3,male,7.0,4,1,3101295,39.6875,S,Master,6,Large,3101295,Very Low,Unknown
+52,0,3,male,21.0,0,0,A/4. 39886,7.8,S,Mr,1,Solo,OTHER,Very Low,Unknown
+53,1,1,female,49.0,1,0,PC 17572,76.7292,C,Mrs,2,Small,OTHER,Low,D
+54,1,2,female,29.0,1,0,2926,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+55,0,1,male,65.0,0,1,113509,61.9792,C,Mr,2,Small,OTHER,Low,B
+56,1,1,male,,0,0,19947,35.5,S,Mr,1,Solo,OTHER,Very Low,C
+57,1,2,female,21.0,0,0,C.A. 31026,10.5,S,Miss,1,Solo,OTHER,Very Low,Unknown
+58,0,3,male,28.5,0,0,2697,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+59,1,2,female,5.0,1,2,C.A. 34651,27.75,S,Miss,4,Small,OTHER,Very Low,Unknown
+60,0,3,male,11.0,5,2,CA 2144,46.9,S,Master,8,Large,CA 2144,Very Low,Unknown
+61,0,3,male,22.0,0,0,2669,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+62,1,1,female,38.0,0,0,113572,80.0,,Miss,1,Solo,OTHER,Low,B
+63,0,1,male,45.0,1,0,36973,83.475,S,Mr,2,Small,OTHER,Low,C
+64,0,3,male,4.0,3,2,347088,27.9,S,Master,6,Large,347088,Very Low,Unknown
+65,0,1,male,,0,0,PC 17605,27.7208,C,Mr,1,Solo,OTHER,Very Low,Unknown
+66,1,3,male,,1,1,2661,15.2458,C,Master,3,Small,OTHER,Very Low,Unknown
+67,1,2,female,29.0,0,0,C.A. 29395,10.5,S,Mrs,1,Solo,OTHER,Very Low,F
+68,0,3,male,19.0,0,0,S.P. 3464,8.1583,S,Mr,1,Solo,OTHER,Very Low,Unknown
+69,1,3,female,17.0,4,2,3101281,7.925,S,Miss,7,Large,OTHER,Very Low,Unknown
+70,0,3,male,26.0,2,0,315151,8.6625,S,Mr,3,Small,OTHER,Very Low,Unknown
+71,0,2,male,32.0,0,0,C.A. 33111,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+72,0,3,female,16.0,5,2,CA 2144,46.9,S,Miss,8,Large,CA 2144,Very Low,Unknown
+73,0,2,male,21.0,0,0,S.O.C. 14879,73.5,S,Mr,1,Solo,S.O.C. 14879,Low,Unknown
+74,0,3,male,26.0,1,0,2680,14.4542,C,Mr,2,Small,OTHER,Very Low,Unknown
+75,1,3,male,32.0,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+76,0,3,male,25.0,0,0,348123,7.65,S,Mr,1,Solo,OTHER,Very Low,F
+77,0,3,male,,0,0,349208,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+78,0,3,male,,0,0,374746,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+79,1,2,male,0.83,0,2,248738,29.0,S,Master,3,Small,OTHER,Very Low,Unknown
+80,1,3,female,30.0,0,0,364516,12.475,S,Miss,1,Solo,OTHER,Very Low,Unknown
+81,0,3,male,22.0,0,0,345767,9.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+82,1,3,male,29.0,0,0,345779,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+83,1,3,female,,0,0,330932,7.7875,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+84,0,1,male,28.0,0,0,113059,47.1,S,Mr,1,Solo,OTHER,Very Low,Unknown
+85,1,2,female,17.0,0,0,SO/C 14885,10.5,S,Miss,1,Solo,OTHER,Very Low,Unknown
+86,1,3,female,33.0,3,0,3101278,15.85,S,Mrs,4,Small,OTHER,Very Low,Unknown
+87,0,3,male,16.0,1,3,W./C. 6608,34.375,S,Mr,5,Large,W./C. 6608,Very Low,Unknown
+88,0,3,male,,0,0,SOTON/OQ 392086,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+89,1,1,female,23.0,3,2,19950,263.0,S,Miss,6,Large,19950,High,C
+90,0,3,male,24.0,0,0,343275,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+91,0,3,male,29.0,0,0,343276,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+92,0,3,male,20.0,0,0,347466,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+93,0,1,male,46.0,1,0,W.E.P. 5734,61.175,S,Mr,2,Small,OTHER,Low,E
+94,0,3,male,26.0,1,2,C.A. 2315,20.575,S,Mr,4,Small,OTHER,Very Low,Unknown
+95,0,3,male,59.0,0,0,364500,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+96,0,3,male,,0,0,374910,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+97,0,1,male,71.0,0,0,PC 17754,34.6542,C,Mr,1,Solo,OTHER,Very Low,A
+98,1,1,male,23.0,0,1,PC 17759,63.3583,C,Mr,2,Small,OTHER,Low,D
+99,1,2,female,34.0,0,1,231919,23.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+100,0,2,male,34.0,1,0,244367,26.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+101,0,3,female,28.0,0,0,349245,7.8958,S,Miss,1,Solo,OTHER,Very Low,Unknown
+102,0,3,male,,0,0,349215,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+103,0,1,male,21.0,0,1,35281,77.2875,S,Mr,2,Small,OTHER,Low,D
+104,0,3,male,33.0,0,0,7540,8.6542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+105,0,3,male,37.0,2,0,3101276,7.925,S,Mr,3,Small,OTHER,Very Low,Unknown
+106,0,3,male,28.0,0,0,349207,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+107,1,3,female,21.0,0,0,343120,7.65,S,Miss,1,Solo,OTHER,Very Low,Unknown
+108,1,3,male,,0,0,312991,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+109,0,3,male,38.0,0,0,349249,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+110,1,3,female,,1,0,371110,24.15,Q,Miss,2,Small,OTHER,Very Low,Unknown
+111,0,1,male,47.0,0,0,110465,52.0,S,Mr,1,Solo,OTHER,Low,C
+112,0,3,female,14.5,1,0,2665,14.4542,C,Miss,2,Small,OTHER,Very Low,Unknown
+113,0,3,male,22.0,0,0,324669,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+114,0,3,female,20.0,1,0,4136,9.825,S,Miss,2,Small,OTHER,Very Low,Unknown
+115,0,3,female,17.0,0,0,2627,14.4583,C,Miss,1,Solo,OTHER,Very Low,Unknown
+116,0,3,male,21.0,0,0,STON/O 2. 3101294,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+117,0,3,male,70.5,0,0,370369,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+118,0,2,male,29.0,1,0,11668,21.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+119,0,1,male,24.0,0,1,PC 17558,247.5208,C,Mr,2,Small,OTHER,High,B
+120,0,3,female,2.0,4,2,347082,31.275,S,Miss,7,Large,347082,Very Low,Unknown
+121,0,2,male,21.0,2,0,S.O.C. 14879,73.5,S,Mr,3,Small,S.O.C. 14879,Low,Unknown
+122,0,3,male,,0,0,A4. 54510,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+123,0,2,male,32.5,1,0,237736,30.0708,C,Mr,2,Small,OTHER,Very Low,Unknown
+124,1,2,female,32.5,0,0,27267,13.0,S,Miss,1,Solo,OTHER,Very Low,E
+125,0,1,male,54.0,0,1,35281,77.2875,S,Mr,2,Small,OTHER,Low,D
+126,1,3,male,12.0,1,0,2651,11.2417,C,Master,2,Small,OTHER,Very Low,Unknown
+127,0,3,male,,0,0,370372,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+128,1,3,male,24.0,0,0,C 17369,7.1417,S,Mr,1,Solo,OTHER,Very Low,Unknown
+129,1,3,female,,1,1,2668,22.3583,C,Miss,3,Small,OTHER,Very Low,F
+130,0,3,male,45.0,0,0,347061,6.975,S,Mr,1,Solo,OTHER,Very Low,Unknown
+131,0,3,male,33.0,0,0,349241,7.8958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+132,0,3,male,20.0,0,0,SOTON/O.Q. 3101307,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+133,0,3,female,47.0,1,0,A/5. 3337,14.5,S,Mrs,2,Small,OTHER,Very Low,Unknown
+134,1,2,female,29.0,1,0,228414,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+135,0,2,male,25.0,0,0,C.A. 29178,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+136,0,2,male,23.0,0,0,SC/PARIS 2133,15.0458,C,Mr,1,Solo,OTHER,Very Low,Unknown
+137,1,1,female,19.0,0,2,11752,26.2833,S,Miss,3,Small,OTHER,Very Low,D
+138,0,1,male,37.0,1,0,113803,53.1,S,Mr,2,Small,OTHER,Low,C
+139,0,3,male,16.0,0,0,7534,9.2167,S,Mr,1,Solo,OTHER,Very Low,Unknown
+140,0,1,male,24.0,0,0,PC 17593,79.2,C,Mr,1,Solo,OTHER,Low,B
+141,0,3,female,,0,2,2678,15.2458,C,Mrs,3,Small,OTHER,Very Low,Unknown
+142,1,3,female,22.0,0,0,347081,7.75,S,Miss,1,Solo,OTHER,Very Low,Unknown
+143,1,3,female,24.0,1,0,STON/O2. 3101279,15.85,S,Mrs,2,Small,OTHER,Very Low,Unknown
+144,0,3,male,19.0,0,0,365222,6.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+145,0,2,male,18.0,0,0,231945,11.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+146,0,2,male,19.0,1,1,C.A. 33112,36.75,S,Mr,3,Small,OTHER,Very Low,Unknown
+147,1,3,male,27.0,0,0,350043,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+148,0,3,female,9.0,2,2,W./C. 6608,34.375,S,Miss,5,Large,W./C. 6608,Very Low,Unknown
+149,0,2,male,36.5,0,2,230080,26.0,S,Mr,3,Small,OTHER,Very Low,F
+150,0,2,male,42.0,0,0,244310,13.0,S,Officer,1,Solo,OTHER,Very Low,Unknown
+151,0,2,male,51.0,0,0,S.O.P. 1166,12.525,S,Officer,1,Solo,OTHER,Very Low,Unknown
+152,1,1,female,22.0,1,0,113776,66.6,S,Mrs,2,Small,OTHER,Low,C
+153,0,3,male,55.5,0,0,A.5. 11206,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+154,0,3,male,40.5,0,2,A/5. 851,14.5,S,Mr,3,Small,OTHER,Very Low,Unknown
+155,0,3,male,,0,0,Fa 265302,7.3125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+156,0,1,male,51.0,0,1,PC 17597,61.3792,C,Mr,2,Small,OTHER,Low,Unknown
+157,1,3,female,16.0,0,0,35851,7.7333,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+158,0,3,male,30.0,0,0,SOTON/OQ 392090,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+159,0,3,male,,0,0,315037,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+160,0,3,male,,8,2,CA. 2343,69.55,S,Master,11,Large,CA. 2343,Low,Unknown
+161,0,3,male,44.0,0,1,371362,16.1,S,Mr,2,Small,OTHER,Very Low,Unknown
+162,1,2,female,40.0,0,0,C.A. 33595,15.75,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+163,0,3,male,26.0,0,0,347068,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+164,0,3,male,17.0,0,0,315093,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+165,0,3,male,1.0,4,1,3101295,39.6875,S,Master,6,Large,3101295,Very Low,Unknown
+166,1,3,male,9.0,0,2,363291,20.525,S,Master,3,Small,OTHER,Very Low,Unknown
+167,1,1,female,,0,1,113505,55.0,S,Mrs,2,Small,OTHER,Low,E
+168,0,3,female,45.0,1,4,347088,27.9,S,Mrs,6,Large,347088,Very Low,Unknown
+169,0,1,male,,0,0,PC 17318,25.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+170,0,3,male,28.0,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+171,0,1,male,61.0,0,0,111240,33.5,S,Mr,1,Solo,OTHER,Very Low,B
+172,0,3,male,4.0,4,1,382652,29.125,Q,Master,6,Large,382652,Very Low,Unknown
+173,1,3,female,1.0,1,1,347742,11.1333,S,Miss,3,Small,OTHER,Very Low,Unknown
+174,0,3,male,21.0,0,0,STON/O 2. 3101280,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+175,0,1,male,56.0,0,0,17764,30.6958,C,Mr,1,Solo,OTHER,Very Low,A
+176,0,3,male,18.0,1,1,350404,7.8542,S,Mr,3,Small,OTHER,Very Low,Unknown
+177,0,3,male,,3,1,4133,25.4667,S,Master,5,Large,4133,Very Low,Unknown
+178,0,1,female,50.0,0,0,PC 17595,28.7125,C,Miss,1,Solo,OTHER,Very Low,C
+179,0,2,male,30.0,0,0,250653,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+180,0,3,male,36.0,0,0,LINE,0.0,S,Mr,1,Solo,LINE,Zero,Unknown
+181,0,3,female,,8,2,CA. 2343,69.55,S,Miss,11,Large,CA. 2343,Low,Unknown
+182,0,2,male,,0,0,SC/PARIS 2131,15.05,C,Mr,1,Solo,OTHER,Very Low,Unknown
+183,0,3,male,9.0,4,2,347077,31.3875,S,Master,7,Large,347077,Very Low,Unknown
+184,1,2,male,1.0,2,1,230136,39.0,S,Master,4,Small,OTHER,Very Low,F
+185,1,3,female,4.0,0,2,315153,22.025,S,Miss,3,Small,OTHER,Very Low,Unknown
+186,0,1,male,,0,0,113767,50.0,S,Mr,1,Solo,OTHER,Very Low,A
+187,1,3,female,,1,0,370365,15.5,Q,Mrs,2,Small,OTHER,Very Low,Unknown
+188,1,1,male,45.0,0,0,111428,26.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+189,0,3,male,40.0,1,1,364849,15.5,Q,Mr,3,Small,OTHER,Very Low,Unknown
+190,0,3,male,36.0,0,0,349247,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+191,1,2,female,32.0,0,0,234604,13.0,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+192,0,2,male,19.0,0,0,28424,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+193,1,3,female,19.0,1,0,350046,7.8542,S,Miss,2,Small,OTHER,Very Low,Unknown
+194,1,2,male,3.0,1,1,230080,26.0,S,Master,3,Small,OTHER,Very Low,F
+195,1,1,female,44.0,0,0,PC 17610,27.7208,C,Mrs,1,Solo,OTHER,Very Low,B
+196,1,1,female,58.0,0,0,PC 17569,146.5208,C,Miss,1,Solo,OTHER,Medium,B
+197,0,3,male,,0,0,368703,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+198,0,3,male,42.0,0,1,4579,8.4042,S,Mr,2,Small,OTHER,Very Low,Unknown
+199,1,3,female,,0,0,370370,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+200,0,2,female,24.0,0,0,248747,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+201,0,3,male,28.0,0,0,345770,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+202,0,3,male,,8,2,CA. 2343,69.55,S,Mr,11,Large,CA. 2343,Low,Unknown
+203,0,3,male,34.0,0,0,3101264,6.4958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+204,0,3,male,45.5,0,0,2628,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+205,1,3,male,18.0,0,0,A/5 3540,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+206,0,3,female,2.0,0,1,347054,10.4625,S,Miss,2,Small,OTHER,Very Low,G
+207,0,3,male,32.0,1,0,3101278,15.85,S,Mr,2,Small,OTHER,Very Low,Unknown
+208,1,3,male,26.0,0,0,2699,18.7875,C,Mr,1,Solo,OTHER,Very Low,Unknown
+209,1,3,female,16.0,0,0,367231,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+210,1,1,male,40.0,0,0,112277,31.0,C,Mr,1,Solo,OTHER,Very Low,A
+211,0,3,male,24.0,0,0,SOTON/O.Q. 3101311,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+212,1,2,female,35.0,0,0,F.C.C. 13528,21.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+213,0,3,male,22.0,0,0,A/5 21174,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+214,0,2,male,30.0,0,0,250646,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+215,0,3,male,,1,0,367229,7.75,Q,Mr,2,Small,OTHER,Very Low,Unknown
+216,1,1,female,31.0,1,0,35273,113.275,C,Miss,2,Small,OTHER,Medium,D
+217,1,3,female,27.0,0,0,STON/O2. 3101283,7.925,S,Miss,1,Solo,OTHER,Very Low,Unknown
+218,0,2,male,42.0,1,0,243847,27.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+219,1,1,female,32.0,0,0,11813,76.2917,C,Miss,1,Solo,OTHER,Low,D
+220,0,2,male,30.0,0,0,W/C 14208,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+221,1,3,male,16.0,0,0,SOTON/OQ 392089,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+222,0,2,male,27.0,0,0,220367,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+223,0,3,male,51.0,0,0,21440,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+224,0,3,male,,0,0,349234,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+225,1,1,male,38.0,1,0,19943,90.0,S,Mr,2,Small,OTHER,Low,C
+226,0,3,male,22.0,0,0,PP 4348,9.35,S,Mr,1,Solo,OTHER,Very Low,Unknown
+227,1,2,male,19.0,0,0,SW/PP 751,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+228,0,3,male,20.5,0,0,A/5 21173,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+229,0,2,male,18.0,0,0,236171,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+230,0,3,female,,3,1,4133,25.4667,S,Miss,5,Large,4133,Very Low,Unknown
+231,1,1,female,35.0,1,0,36973,83.475,S,Mrs,2,Small,OTHER,Low,C
+232,0,3,male,29.0,0,0,347067,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+233,0,2,male,59.0,0,0,237442,13.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+234,1,3,female,5.0,4,2,347077,31.3875,S,Miss,7,Large,347077,Very Low,Unknown
+235,0,2,male,24.0,0,0,C.A. 29566,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+236,0,3,female,,0,0,W./C. 6609,7.55,S,Miss,1,Solo,OTHER,Very Low,Unknown
+237,0,2,male,44.0,1,0,26707,26.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+238,1,2,female,8.0,0,2,C.A. 31921,26.25,S,Miss,3,Small,OTHER,Very Low,Unknown
+239,0,2,male,19.0,0,0,28665,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+240,0,2,male,33.0,0,0,SCO/W 1585,12.275,S,Mr,1,Solo,OTHER,Very Low,Unknown
+241,0,3,female,,1,0,2665,14.4542,C,Miss,2,Small,OTHER,Very Low,Unknown
+242,1,3,female,,1,0,367230,15.5,Q,Miss,2,Small,OTHER,Very Low,Unknown
+243,0,2,male,29.0,0,0,W./C. 14263,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+244,0,3,male,22.0,0,0,STON/O 2. 3101275,7.125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+245,0,3,male,30.0,0,0,2694,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+246,0,1,male,44.0,2,0,19928,90.0,Q,Officer,3,Small,OTHER,Low,C
+247,0,3,female,25.0,0,0,347071,7.775,S,Miss,1,Solo,OTHER,Very Low,Unknown
+248,1,2,female,24.0,0,2,250649,14.5,S,Mrs,3,Small,OTHER,Very Low,Unknown
+249,1,1,male,37.0,1,1,11751,52.5542,S,Mr,3,Small,OTHER,Low,D
+250,0,2,male,54.0,1,0,244252,26.0,S,Officer,2,Small,OTHER,Very Low,Unknown
+251,0,3,male,,0,0,362316,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+252,0,3,female,29.0,1,1,347054,10.4625,S,Mrs,3,Small,OTHER,Very Low,G
+253,0,1,male,62.0,0,0,113514,26.55,S,Mr,1,Solo,OTHER,Very Low,C
+254,0,3,male,30.0,1,0,A/5. 3336,16.1,S,Mr,2,Small,OTHER,Very Low,Unknown
+255,0,3,female,41.0,0,2,370129,20.2125,S,Mrs,3,Small,OTHER,Very Low,Unknown
+256,1,3,female,29.0,0,2,2650,15.2458,C,Mrs,3,Small,OTHER,Very Low,Unknown
+257,1,1,female,,0,0,PC 17585,79.2,C,Mrs,1,Solo,OTHER,Low,Unknown
+258,1,1,female,30.0,0,0,110152,86.5,S,Miss,1,Solo,OTHER,Low,B
+259,1,1,female,35.0,0,0,PC 17755,512.3292,C,Miss,1,Solo,OTHER,Very High,Unknown
+260,1,2,female,50.0,0,1,230433,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+261,0,3,male,,0,0,384461,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+262,1,3,male,3.0,4,2,347077,31.3875,S,Master,7,Large,347077,Very Low,Unknown
+263,0,1,male,52.0,1,1,110413,79.65,S,Mr,3,Small,OTHER,Low,E
+264,0,1,male,40.0,0,0,112059,0.0,S,Mr,1,Solo,OTHER,Zero,B
+265,0,3,female,,0,0,382649,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+266,0,2,male,36.0,0,0,C.A. 17248,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+267,0,3,male,16.0,4,1,3101295,39.6875,S,Mr,6,Large,3101295,Very Low,Unknown
+268,1,3,male,25.0,1,0,347083,7.775,S,Mr,2,Small,OTHER,Very Low,Unknown
+269,1,1,female,58.0,0,1,PC 17582,153.4625,S,Mrs,2,Small,OTHER,Medium,C
+270,1,1,female,35.0,0,0,PC 17760,135.6333,S,Miss,1,Solo,OTHER,Medium,C
+271,0,1,male,,0,0,113798,31.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+272,1,3,male,25.0,0,0,LINE,0.0,S,Mr,1,Solo,LINE,Zero,Unknown
+273,1,2,female,41.0,0,1,250644,19.5,S,Mrs,2,Small,OTHER,Very Low,Unknown
+274,0,1,male,37.0,0,1,PC 17596,29.7,C,Mr,2,Small,OTHER,Very Low,C
+275,1,3,female,,0,0,370375,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+276,1,1,female,63.0,1,0,13502,77.9583,S,Miss,2,Small,OTHER,Low,D
+277,0,3,female,45.0,0,0,347073,7.75,S,Miss,1,Solo,OTHER,Very Low,Unknown
+278,0,2,male,,0,0,239853,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+279,0,3,male,7.0,4,1,382652,29.125,Q,Master,6,Large,382652,Very Low,Unknown
+280,1,3,female,35.0,1,1,C.A. 2673,20.25,S,Mrs,3,Small,OTHER,Very Low,Unknown
+281,0,3,male,65.0,0,0,336439,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+282,0,3,male,28.0,0,0,347464,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+283,0,3,male,16.0,0,0,345778,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+284,1,3,male,19.0,0,0,A/5. 10482,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+285,0,1,male,,0,0,113056,26.0,S,Mr,1,Solo,OTHER,Very Low,A
+286,0,3,male,33.0,0,0,349239,8.6625,C,Mr,1,Solo,OTHER,Very Low,Unknown
+287,1,3,male,30.0,0,0,345774,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+288,0,3,male,22.0,0,0,349206,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+289,1,2,male,42.0,0,0,237798,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+290,1,3,female,22.0,0,0,370373,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+291,1,1,female,26.0,0,0,19877,78.85,S,Miss,1,Solo,OTHER,Low,Unknown
+292,1,1,female,19.0,1,0,11967,91.0792,C,Mrs,2,Small,OTHER,Low,B
+293,0,2,male,36.0,0,0,SC/Paris 2163,12.875,C,Mr,1,Solo,OTHER,Very Low,D
+294,0,3,female,24.0,0,0,349236,8.85,S,Miss,1,Solo,OTHER,Very Low,Unknown
+295,0,3,male,24.0,0,0,349233,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+296,0,1,male,,0,0,PC 17612,27.7208,C,Mr,1,Solo,OTHER,Very Low,Unknown
+297,0,3,male,23.5,0,0,2693,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+298,0,1,female,2.0,1,2,113781,151.55,S,Miss,4,Small,113781,Medium,C
+299,1,1,male,,0,0,19988,30.5,S,Mr,1,Solo,OTHER,Very Low,C
+300,1,1,female,50.0,0,1,PC 17558,247.5208,C,Mrs,2,Small,OTHER,High,B
+301,1,3,female,,0,0,9234,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+302,1,3,male,,2,0,367226,23.25,Q,Mr,3,Small,OTHER,Very Low,Unknown
+303,0,3,male,19.0,0,0,LINE,0.0,S,Mr,1,Solo,LINE,Zero,Unknown
+304,1,2,female,,0,0,226593,12.35,Q,Miss,1,Solo,OTHER,Very Low,E
+305,0,3,male,,0,0,A/5 2466,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+306,1,1,male,0.92,1,2,113781,151.55,S,Master,4,Small,113781,Medium,C
+307,1,1,female,,0,0,17421,110.8833,C,Miss,1,Solo,17421,Medium,Unknown
+308,1,1,female,17.0,1,0,PC 17758,108.9,C,Mrs,2,Small,OTHER,Medium,C
+309,0,2,male,30.0,1,0,P/PP 3381,24.0,C,Mr,2,Small,OTHER,Very Low,Unknown
+310,1,1,female,30.0,0,0,PC 17485,56.9292,C,Miss,1,Solo,OTHER,Low,E
+311,1,1,female,24.0,0,0,11767,83.1583,C,Miss,1,Solo,OTHER,Low,C
+312,1,1,female,18.0,2,2,PC 17608,262.375,C,Miss,5,Large,OTHER,High,B
+313,0,2,female,26.0,1,1,250651,26.0,S,Mrs,3,Small,OTHER,Very Low,Unknown
+314,0,3,male,28.0,0,0,349243,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+315,0,2,male,43.0,1,1,F.C.C. 13529,26.25,S,Mr,3,Small,OTHER,Very Low,Unknown
+316,1,3,female,26.0,0,0,347470,7.8542,S,Miss,1,Solo,OTHER,Very Low,Unknown
+317,1,2,female,24.0,1,0,244367,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+318,0,2,male,54.0,0,0,29011,14.0,S,Officer,1,Solo,OTHER,Very Low,Unknown
+319,1,1,female,31.0,0,2,36928,164.8667,S,Miss,3,Small,OTHER,Medium,C
+320,1,1,female,40.0,1,1,16966,134.5,C,Mrs,3,Small,OTHER,Medium,E
+321,0,3,male,22.0,0,0,A/5 21172,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+322,0,3,male,27.0,0,0,349219,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+323,1,2,female,30.0,0,0,234818,12.35,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+324,1,2,female,22.0,1,1,248738,29.0,S,Mrs,3,Small,OTHER,Very Low,Unknown
+325,0,3,male,,8,2,CA. 2343,69.55,S,Mr,11,Large,CA. 2343,Low,Unknown
+326,1,1,female,36.0,0,0,PC 17760,135.6333,C,Miss,1,Solo,OTHER,Medium,C
+327,0,3,male,61.0,0,0,345364,6.2375,S,Mr,1,Solo,OTHER,Very Low,Unknown
+328,1,2,female,36.0,0,0,28551,13.0,S,Mrs,1,Solo,OTHER,Very Low,D
+329,1,3,female,31.0,1,1,363291,20.525,S,Mrs,3,Small,OTHER,Very Low,Unknown
+330,1,1,female,16.0,0,1,111361,57.9792,C,Miss,2,Small,OTHER,Low,B
+331,1,3,female,,2,0,367226,23.25,Q,Miss,3,Small,OTHER,Very Low,Unknown
+332,0,1,male,45.5,0,0,113043,28.5,S,Mr,1,Solo,OTHER,Very Low,C
+333,0,1,male,38.0,0,1,PC 17582,153.4625,S,Mr,2,Small,OTHER,Medium,C
+334,0,3,male,16.0,2,0,345764,18.0,S,Mr,3,Small,OTHER,Very Low,Unknown
+335,1,1,female,,1,0,PC 17611,133.65,S,Mrs,2,Small,OTHER,Medium,Unknown
+336,0,3,male,,0,0,349225,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+337,0,1,male,29.0,1,0,113776,66.6,S,Mr,2,Small,OTHER,Low,C
+338,1,1,female,41.0,0,0,16966,134.5,C,Miss,1,Solo,OTHER,Medium,E
+339,1,3,male,45.0,0,0,7598,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+340,0,1,male,45.0,0,0,113784,35.5,S,Mr,1,Solo,OTHER,Very Low,T
+341,1,2,male,2.0,1,1,230080,26.0,S,Master,3,Small,OTHER,Very Low,F
+342,1,1,female,24.0,3,2,19950,263.0,S,Miss,6,Large,19950,High,C
+343,0,2,male,28.0,0,0,248740,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+344,0,2,male,25.0,0,0,244361,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+345,0,2,male,36.0,0,0,229236,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+346,1,2,female,24.0,0,0,248733,13.0,S,Miss,1,Solo,OTHER,Very Low,F
+347,1,2,female,40.0,0,0,31418,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+348,1,3,female,,1,0,386525,16.1,S,Mrs,2,Small,OTHER,Very Low,Unknown
+349,1,3,male,3.0,1,1,C.A. 37671,15.9,S,Master,3,Small,OTHER,Very Low,Unknown
+350,0,3,male,42.0,0,0,315088,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+351,0,3,male,23.0,0,0,7267,9.225,S,Mr,1,Solo,OTHER,Very Low,Unknown
+352,0,1,male,,0,0,113510,35.0,S,Mr,1,Solo,OTHER,Very Low,C
+353,0,3,male,15.0,1,1,2695,7.2292,C,Mr,3,Small,OTHER,Very Low,Unknown
+354,0,3,male,25.0,1,0,349237,17.8,S,Mr,2,Small,OTHER,Very Low,Unknown
+355,0,3,male,,0,0,2647,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+356,0,3,male,28.0,0,0,345783,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+357,1,1,female,22.0,0,1,113505,55.0,S,Miss,2,Small,OTHER,Low,E
+358,0,2,female,38.0,0,0,237671,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+359,1,3,female,,0,0,330931,7.8792,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+360,1,3,female,,0,0,330980,7.8792,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+361,0,3,male,40.0,1,4,347088,27.9,S,Mr,6,Large,347088,Very Low,Unknown
+362,0,2,male,29.0,1,0,SC/PARIS 2167,27.7208,C,Mr,2,Small,OTHER,Very Low,Unknown
+363,0,3,female,45.0,0,1,2691,14.4542,C,Mrs,2,Small,OTHER,Very Low,Unknown
+364,0,3,male,35.0,0,0,SOTON/O.Q. 3101310,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+365,0,3,male,,1,0,370365,15.5,Q,Mr,2,Small,OTHER,Very Low,Unknown
+366,0,3,male,30.0,0,0,C 7076,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+367,1,1,female,60.0,1,0,110813,75.25,C,Mrs,2,Small,OTHER,Low,D
+368,1,3,female,,0,0,2626,7.2292,C,Mrs,1,Solo,OTHER,Very Low,Unknown
+369,1,3,female,,0,0,14313,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+370,1,1,female,24.0,0,0,PC 17477,69.3,C,Mrs,1,Solo,OTHER,Low,B
+371,1,1,male,25.0,1,0,11765,55.4417,C,Mr,2,Small,OTHER,Low,E
+372,0,3,male,18.0,1,0,3101267,6.4958,S,Mr,2,Small,OTHER,Very Low,Unknown
+373,0,3,male,19.0,0,0,323951,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+374,0,1,male,22.0,0,0,PC 17760,135.6333,C,Mr,1,Solo,OTHER,Medium,Unknown
+375,0,3,female,3.0,3,1,349909,21.075,S,Miss,5,Large,349909,Very Low,Unknown
+376,1,1,female,,1,0,PC 17604,82.1708,C,Mrs,2,Small,OTHER,Low,Unknown
+377,1,3,female,22.0,0,0,C 7077,7.25,S,Miss,1,Solo,OTHER,Very Low,Unknown
+378,0,1,male,27.0,0,2,113503,211.5,C,Mr,3,Small,OTHER,High,C
+379,0,3,male,20.0,0,0,2648,4.0125,C,Mr,1,Solo,OTHER,Very Low,Unknown
+380,0,3,male,19.0,0,0,347069,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+381,1,1,female,42.0,0,0,PC 17757,227.525,C,Miss,1,Solo,PC 17757,High,Unknown
+382,1,3,female,1.0,0,2,2653,15.7417,C,Miss,3,Small,OTHER,Very Low,Unknown
+383,0,3,male,32.0,0,0,STON/O 2. 3101293,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+384,1,1,female,35.0,1,0,113789,52.0,S,Mrs,2,Small,OTHER,Low,Unknown
+385,0,3,male,,0,0,349227,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+386,0,2,male,18.0,0,0,S.O.C. 14879,73.5,S,Mr,1,Solo,S.O.C. 14879,Low,Unknown
+387,0,3,male,1.0,5,2,CA 2144,46.9,S,Master,8,Large,CA 2144,Very Low,Unknown
+388,1,2,female,36.0,0,0,27849,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+389,0,3,male,,0,0,367655,7.7292,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+390,1,2,female,17.0,0,0,SC 1748,12.0,C,Miss,1,Solo,OTHER,Very Low,Unknown
+391,1,1,male,36.0,1,2,113760,120.0,S,Mr,4,Small,113760,Medium,B
+392,1,3,male,21.0,0,0,350034,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+393,0,3,male,28.0,2,0,3101277,7.925,S,Mr,3,Small,OTHER,Very Low,Unknown
+394,1,1,female,23.0,1,0,35273,113.275,C,Miss,2,Small,OTHER,Medium,D
+395,1,3,female,24.0,0,2,PP 9549,16.7,S,Mrs,3,Small,OTHER,Very Low,G
+396,0,3,male,22.0,0,0,350052,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+397,0,3,female,31.0,0,0,350407,7.8542,S,Miss,1,Solo,OTHER,Very Low,Unknown
+398,0,2,male,46.0,0,0,28403,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+399,0,2,male,23.0,0,0,244278,10.5,S,Officer,1,Solo,OTHER,Very Low,Unknown
+400,1,2,female,28.0,0,0,240929,12.65,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+401,1,3,male,39.0,0,0,STON/O 2. 3101289,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+402,0,3,male,26.0,0,0,341826,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+403,0,3,female,21.0,1,0,4137,9.825,S,Miss,2,Small,OTHER,Very Low,Unknown
+404,0,3,male,28.0,1,0,STON/O2. 3101279,15.85,S,Mr,2,Small,OTHER,Very Low,Unknown
+405,0,3,female,20.0,0,0,315096,8.6625,S,Miss,1,Solo,OTHER,Very Low,Unknown
+406,0,2,male,34.0,1,0,28664,21.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+407,0,3,male,51.0,0,0,347064,7.75,S,Mr,1,Solo,OTHER,Very Low,Unknown
+408,1,2,male,3.0,1,1,29106,18.75,S,Master,3,Small,OTHER,Very Low,Unknown
+409,0,3,male,21.0,0,0,312992,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+410,0,3,female,,3,1,4133,25.4667,S,Miss,5,Large,4133,Very Low,Unknown
+411,0,3,male,,0,0,349222,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+412,0,3,male,,0,0,394140,6.8583,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+413,1,1,female,33.0,1,0,19928,90.0,Q,Miss,2,Small,OTHER,Low,C
+414,0,2,male,,0,0,239853,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+415,1,3,male,44.0,0,0,STON/O 2. 3101269,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+416,0,3,female,,0,0,343095,8.05,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+417,1,2,female,34.0,1,1,28220,32.5,S,Mrs,3,Small,OTHER,Very Low,Unknown
+418,1,2,female,18.0,0,2,250652,13.0,S,Miss,3,Small,OTHER,Very Low,Unknown
+419,0,2,male,30.0,0,0,28228,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+420,0,3,female,10.0,0,2,345773,24.15,S,Miss,3,Small,OTHER,Very Low,Unknown
+421,0,3,male,,0,0,349254,7.8958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+422,0,3,male,21.0,0,0,A/5. 13032,7.7333,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+423,0,3,male,29.0,0,0,315082,7.875,S,Mr,1,Solo,OTHER,Very Low,Unknown
+424,0,3,female,28.0,1,1,347080,14.4,S,Mrs,3,Small,OTHER,Very Low,Unknown
+425,0,3,male,18.0,1,1,370129,20.2125,S,Mr,3,Small,OTHER,Very Low,Unknown
+426,0,3,male,,0,0,A/4. 34244,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+427,1,2,female,28.0,1,0,2003,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+428,1,2,female,19.0,0,0,250655,26.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+429,0,3,male,,0,0,364851,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+430,1,3,male,32.0,0,0,SOTON/O.Q. 392078,8.05,S,Mr,1,Solo,OTHER,Very Low,E
+431,1,1,male,28.0,0,0,110564,26.55,S,Mr,1,Solo,OTHER,Very Low,C
+432,1,3,female,,1,0,376564,16.1,S,Mrs,2,Small,OTHER,Very Low,Unknown
+433,1,2,female,42.0,1,0,SC/AH 3085,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+434,0,3,male,17.0,0,0,STON/O 2. 3101274,7.125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+435,0,1,male,50.0,1,0,13507,55.9,S,Mr,2,Small,OTHER,Low,E
+436,1,1,female,14.0,1,2,113760,120.0,S,Miss,4,Small,113760,Medium,B
+437,0,3,female,21.0,2,2,W./C. 6608,34.375,S,Miss,5,Large,W./C. 6608,Very Low,Unknown
+438,1,2,female,24.0,2,3,29106,18.75,S,Mrs,6,Large,OTHER,Very Low,Unknown
+439,0,1,male,64.0,1,4,19950,263.0,S,Mr,6,Large,19950,High,C
+440,0,2,male,31.0,0,0,C.A. 18723,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+441,1,2,female,45.0,1,1,F.C.C. 13529,26.25,S,Mrs,3,Small,OTHER,Very Low,Unknown
+442,0,3,male,20.0,0,0,345769,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+443,0,3,male,25.0,1,0,347076,7.775,S,Mr,2,Small,OTHER,Very Low,Unknown
+444,1,2,female,28.0,0,0,230434,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+445,1,3,male,,0,0,65306,8.1125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+446,1,1,male,4.0,0,2,33638,81.8583,S,Master,3,Small,OTHER,Low,A
+447,1,2,female,13.0,0,1,250644,19.5,S,Miss,2,Small,OTHER,Very Low,Unknown
+448,1,1,male,34.0,0,0,113794,26.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+449,1,3,female,5.0,2,1,2666,19.2583,C,Miss,4,Small,2666,Very Low,Unknown
+450,1,1,male,52.0,0,0,113786,30.5,S,Officer,1,Solo,OTHER,Very Low,C
+451,0,2,male,36.0,1,2,C.A. 34651,27.75,S,Mr,4,Small,OTHER,Very Low,Unknown
+452,0,3,male,,1,0,65303,19.9667,S,Mr,2,Small,OTHER,Very Low,Unknown
+453,0,1,male,30.0,0,0,113051,27.75,C,Mr,1,Solo,OTHER,Very Low,C
+454,1,1,male,49.0,1,0,17453,89.1042,C,Mr,2,Small,OTHER,Low,C
+455,0,3,male,,0,0,A/5 2817,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+456,1,3,male,29.0,0,0,349240,7.8958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+457,0,1,male,65.0,0,0,13509,26.55,S,Mr,1,Solo,OTHER,Very Low,E
+458,1,1,female,,1,0,17464,51.8625,S,Mrs,2,Small,OTHER,Low,D
+459,1,2,female,50.0,0,0,F.C.C. 13531,10.5,S,Miss,1,Solo,OTHER,Very Low,Unknown
+460,0,3,male,,0,0,371060,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+461,1,1,male,48.0,0,0,19952,26.55,S,Mr,1,Solo,OTHER,Very Low,E
+462,0,3,male,34.0,0,0,364506,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+463,0,1,male,47.0,0,0,111320,38.5,S,Mr,1,Solo,OTHER,Very Low,E
+464,0,2,male,48.0,0,0,234360,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+465,0,3,male,,0,0,A/S 2816,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+466,0,3,male,38.0,0,0,SOTON/O.Q. 3101306,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+467,0,2,male,,0,0,239853,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+468,0,1,male,56.0,0,0,113792,26.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+469,0,3,male,,0,0,36209,7.725,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+470,1,3,female,0.75,2,1,2666,19.2583,C,Miss,4,Small,2666,Very Low,Unknown
+471,0,3,male,,0,0,323592,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+472,0,3,male,38.0,0,0,315089,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+473,1,2,female,33.0,1,2,C.A. 34651,27.75,S,Mrs,4,Small,OTHER,Very Low,Unknown
+474,1,2,female,23.0,0,0,SC/AH Basle 541,13.7917,C,Mrs,1,Solo,OTHER,Very Low,D
+475,0,3,female,22.0,0,0,7553,9.8375,S,Miss,1,Solo,OTHER,Very Low,Unknown
+476,0,1,male,,0,0,110465,52.0,S,Mr,1,Solo,OTHER,Low,A
+477,0,2,male,34.0,1,0,31027,21.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+478,0,3,male,29.0,1,0,3460,7.0458,S,Mr,2,Small,OTHER,Very Low,Unknown
+479,0,3,male,22.0,0,0,350060,7.5208,S,Mr,1,Solo,OTHER,Very Low,Unknown
+480,1,3,female,2.0,0,1,3101298,12.2875,S,Miss,2,Small,OTHER,Very Low,Unknown
+481,0,3,male,9.0,5,2,CA 2144,46.9,S,Master,8,Large,CA 2144,Very Low,Unknown
+482,0,2,male,,0,0,239854,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+483,0,3,male,50.0,0,0,A/5 3594,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+484,1,3,female,63.0,0,0,4134,9.5875,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+485,1,1,male,25.0,1,0,11967,91.0792,C,Mr,2,Small,OTHER,Low,B
+486,0,3,female,,3,1,4133,25.4667,S,Miss,5,Large,4133,Very Low,Unknown
+487,1,1,female,35.0,1,0,19943,90.0,S,Mrs,2,Small,OTHER,Low,C
+488,0,1,male,58.0,0,0,11771,29.7,C,Mr,1,Solo,OTHER,Very Low,B
+489,0,3,male,30.0,0,0,A.5. 18509,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+490,1,3,male,9.0,1,1,C.A. 37671,15.9,S,Master,3,Small,OTHER,Very Low,Unknown
+491,0,3,male,,1,0,65304,19.9667,S,Mr,2,Small,OTHER,Very Low,Unknown
+492,0,3,male,21.0,0,0,SOTON/OQ 3101317,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+493,0,1,male,55.0,0,0,113787,30.5,S,Mr,1,Solo,OTHER,Very Low,C
+494,0,1,male,71.0,0,0,PC 17609,49.5042,C,Mr,1,Solo,OTHER,Very Low,Unknown
+495,0,3,male,21.0,0,0,A/4 45380,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+496,0,3,male,,0,0,2627,14.4583,C,Mr,1,Solo,OTHER,Very Low,Unknown
+497,1,1,female,54.0,1,0,36947,78.2667,C,Miss,2,Small,OTHER,Low,D
+498,0,3,male,,0,0,C.A. 6212,15.1,S,Mr,1,Solo,OTHER,Very Low,Unknown
+499,0,1,female,25.0,1,2,113781,151.55,S,Mrs,4,Small,113781,Medium,C
+500,0,3,male,24.0,0,0,350035,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+501,0,3,male,17.0,0,0,315086,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+502,0,3,female,21.0,0,0,364846,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+503,0,3,female,,0,0,330909,7.6292,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+504,0,3,female,37.0,0,0,4135,9.5875,S,Miss,1,Solo,OTHER,Very Low,Unknown
+505,1,1,female,16.0,0,0,110152,86.5,S,Miss,1,Solo,OTHER,Low,B
+506,0,1,male,18.0,1,0,PC 17758,108.9,C,Mr,2,Small,OTHER,Medium,C
+507,1,2,female,33.0,0,2,26360,26.0,S,Mrs,3,Small,OTHER,Very Low,Unknown
+508,1,1,male,,0,0,111427,26.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+509,0,3,male,28.0,0,0,C 4001,22.525,S,Mr,1,Solo,OTHER,Very Low,Unknown
+510,1,3,male,26.0,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+511,1,3,male,29.0,0,0,382651,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+512,0,3,male,,0,0,SOTON/OQ 3101316,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+513,1,1,male,36.0,0,0,PC 17473,26.2875,S,Mr,1,Solo,OTHER,Very Low,E
+514,1,1,female,54.0,1,0,PC 17603,59.4,C,Mrs,2,Small,OTHER,Low,Unknown
+515,0,3,male,24.0,0,0,349209,7.4958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+516,0,1,male,47.0,0,0,36967,34.0208,S,Mr,1,Solo,OTHER,Very Low,D
+517,1,2,female,34.0,0,0,C.A. 34260,10.5,S,Mrs,1,Solo,OTHER,Very Low,F
+518,0,3,male,,0,0,371110,24.15,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+519,1,2,female,36.0,1,0,226875,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+520,0,3,male,32.0,0,0,349242,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+521,1,1,female,30.0,0,0,12749,93.5,S,Miss,1,Solo,OTHER,Low,B
+522,0,3,male,22.0,0,0,349252,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+523,0,3,male,,0,0,2624,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+524,1,1,female,44.0,0,1,111361,57.9792,C,Mrs,2,Small,OTHER,Low,B
+525,0,3,male,,0,0,2700,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+526,0,3,male,40.5,0,0,367232,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+527,1,2,female,50.0,0,0,W./C. 14258,10.5,S,Miss,1,Solo,OTHER,Very Low,Unknown
+528,0,1,male,,0,0,PC 17483,221.7792,S,Mr,1,Solo,OTHER,High,C
+529,0,3,male,39.0,0,0,3101296,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+530,0,2,male,23.0,2,1,29104,11.5,S,Mr,4,Small,OTHER,Very Low,Unknown
+531,1,2,female,2.0,1,1,26360,26.0,S,Miss,3,Small,OTHER,Very Low,Unknown
+532,0,3,male,,0,0,2641,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+533,0,3,male,17.0,1,1,2690,7.2292,C,Mr,3,Small,OTHER,Very Low,Unknown
+534,1,3,female,,0,2,2668,22.3583,C,Mrs,3,Small,OTHER,Very Low,Unknown
+535,0,3,female,30.0,0,0,315084,8.6625,S,Miss,1,Solo,OTHER,Very Low,Unknown
+536,1,2,female,7.0,0,2,F.C.C. 13529,26.25,S,Miss,3,Small,OTHER,Very Low,Unknown
+537,0,1,male,45.0,0,0,113050,26.55,S,Officer,1,Solo,OTHER,Very Low,B
+538,1,1,female,30.0,0,0,PC 17761,106.425,C,Miss,1,Solo,OTHER,Medium,Unknown
+539,0,3,male,,0,0,364498,14.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+540,1,1,female,22.0,0,2,13568,49.5,C,Miss,3,Small,OTHER,Very Low,B
+541,1,1,female,36.0,0,2,WE/P 5735,71.0,S,Miss,3,Small,OTHER,Low,B
+542,0,3,female,9.0,4,2,347082,31.275,S,Miss,7,Large,347082,Very Low,Unknown
+543,0,3,female,11.0,4,2,347082,31.275,S,Miss,7,Large,347082,Very Low,Unknown
+544,1,2,male,32.0,1,0,2908,26.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+545,0,1,male,50.0,1,0,PC 17761,106.425,C,Mr,2,Small,OTHER,Medium,C
+546,0,1,male,64.0,0,0,693,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+547,1,2,female,19.0,1,0,2908,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+548,1,2,male,,0,0,SC/PARIS 2146,13.8625,C,Mr,1,Solo,OTHER,Very Low,Unknown
+549,0,3,male,33.0,1,1,363291,20.525,S,Mr,3,Small,OTHER,Very Low,Unknown
+550,1,2,male,8.0,1,1,C.A. 33112,36.75,S,Master,3,Small,OTHER,Very Low,Unknown
+551,1,1,male,17.0,0,2,17421,110.8833,C,Mr,3,Small,17421,Medium,C
+552,0,2,male,27.0,0,0,244358,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+553,0,3,male,,0,0,330979,7.8292,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+554,1,3,male,22.0,0,0,2620,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+555,1,3,female,22.0,0,0,347085,7.775,S,Miss,1,Solo,OTHER,Very Low,Unknown
+556,0,1,male,62.0,0,0,113807,26.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+557,1,1,female,48.0,1,0,11755,39.6,C,Royalty,2,Small,OTHER,Very Low,A
+558,0,1,male,,0,0,PC 17757,227.525,C,Mr,1,Solo,PC 17757,High,Unknown
+559,1,1,female,39.0,1,1,110413,79.65,S,Mrs,3,Small,OTHER,Low,E
+560,1,3,female,36.0,1,0,345572,17.4,S,Mrs,2,Small,OTHER,Very Low,Unknown
+561,0,3,male,,0,0,372622,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+562,0,3,male,40.0,0,0,349251,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+563,0,2,male,28.0,0,0,218629,13.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+564,0,3,male,,0,0,SOTON/OQ 392082,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+565,0,3,female,,0,0,SOTON/O.Q. 392087,8.05,S,Miss,1,Solo,OTHER,Very Low,Unknown
+566,0,3,male,24.0,2,0,A/4 48871,24.15,S,Mr,3,Small,OTHER,Very Low,Unknown
+567,0,3,male,19.0,0,0,349205,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+568,0,3,female,29.0,0,4,349909,21.075,S,Mrs,5,Large,349909,Very Low,Unknown
+569,0,3,male,,0,0,2686,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+570,1,3,male,32.0,0,0,350417,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+571,1,2,male,62.0,0,0,S.W./PP 752,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+572,1,1,female,53.0,2,0,11769,51.4792,S,Mrs,3,Small,OTHER,Low,C
+573,1,1,male,36.0,0,0,PC 17474,26.3875,S,Mr,1,Solo,OTHER,Very Low,E
+574,1,3,female,,0,0,14312,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+575,0,3,male,16.0,0,0,A/4. 20589,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+576,0,3,male,19.0,0,0,358585,14.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+577,1,2,female,34.0,0,0,243880,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+578,1,1,female,39.0,1,0,13507,55.9,S,Mrs,2,Small,OTHER,Low,E
+579,0,3,female,,1,0,2689,14.4583,C,Mrs,2,Small,OTHER,Very Low,Unknown
+580,1,3,male,32.0,0,0,STON/O 2. 3101286,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+581,1,2,female,25.0,1,1,237789,30.0,S,Miss,3,Small,OTHER,Very Low,Unknown
+582,1,1,female,39.0,1,1,17421,110.8833,C,Mrs,3,Small,17421,Medium,C
+583,0,2,male,54.0,0,0,28403,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+584,0,1,male,36.0,0,0,13049,40.125,C,Mr,1,Solo,OTHER,Very Low,A
+585,0,3,male,,0,0,3411,8.7125,C,Mr,1,Solo,OTHER,Very Low,Unknown
+586,1,1,female,18.0,0,2,110413,79.65,S,Miss,3,Small,OTHER,Low,E
+587,0,2,male,47.0,0,0,237565,15.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+588,1,1,male,60.0,1,1,13567,79.2,C,Mr,3,Small,OTHER,Low,B
+589,0,3,male,22.0,0,0,14973,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+590,0,3,male,,0,0,A./5. 3235,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+591,0,3,male,35.0,0,0,STON/O 2. 3101273,7.125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+592,1,1,female,52.0,1,0,36947,78.2667,C,Mrs,2,Small,OTHER,Low,D
+593,0,3,male,47.0,0,0,A/5 3902,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+594,0,3,female,,0,2,364848,7.75,Q,Miss,3,Small,OTHER,Very Low,Unknown
+595,0,2,male,37.0,1,0,SC/AH 29037,26.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+596,0,3,male,36.0,1,1,345773,24.15,S,Mr,3,Small,OTHER,Very Low,Unknown
+597,1,2,female,,0,0,248727,33.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+598,0,3,male,49.0,0,0,LINE,0.0,S,Mr,1,Solo,LINE,Zero,Unknown
+599,0,3,male,,0,0,2664,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+600,1,1,male,49.0,1,0,PC 17485,56.9292,C,Royalty,2,Small,OTHER,Low,A
+601,1,2,female,24.0,2,1,243847,27.0,S,Mrs,4,Small,OTHER,Very Low,Unknown
+602,0,3,male,,0,0,349214,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+603,0,1,male,,0,0,113796,42.4,S,Mr,1,Solo,OTHER,Very Low,Unknown
+604,0,3,male,44.0,0,0,364511,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+605,1,1,male,35.0,0,0,111426,26.55,C,Mr,1,Solo,OTHER,Very Low,Unknown
+606,0,3,male,36.0,1,0,349910,15.55,S,Mr,2,Small,OTHER,Very Low,Unknown
+607,0,3,male,30.0,0,0,349246,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+608,1,1,male,27.0,0,0,113804,30.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+609,1,2,female,22.0,1,2,SC/Paris 2123,41.5792,C,Mrs,4,Small,OTHER,Very Low,Unknown
+610,1,1,female,40.0,0,0,PC 17582,153.4625,S,Miss,1,Solo,OTHER,Medium,C
+611,0,3,female,39.0,1,5,347082,31.275,S,Mrs,7,Large,347082,Very Low,Unknown
+612,0,3,male,,0,0,SOTON/O.Q. 3101305,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+613,1,3,female,,1,0,367230,15.5,Q,Miss,2,Small,OTHER,Very Low,Unknown
+614,0,3,male,,0,0,370377,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+615,0,3,male,35.0,0,0,364512,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+616,1,2,female,24.0,1,2,220845,65.0,S,Miss,4,Small,OTHER,Low,Unknown
+617,0,3,male,34.0,1,1,347080,14.4,S,Mr,3,Small,OTHER,Very Low,Unknown
+618,0,3,female,26.0,1,0,A/5. 3336,16.1,S,Mrs,2,Small,OTHER,Very Low,Unknown
+619,1,2,female,4.0,2,1,230136,39.0,S,Miss,4,Small,OTHER,Very Low,F
+620,0,2,male,26.0,0,0,31028,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+621,0,3,male,27.0,1,0,2659,14.4542,C,Mr,2,Small,OTHER,Very Low,Unknown
+622,1,1,male,42.0,1,0,11753,52.5542,S,Mr,2,Small,OTHER,Low,D
+623,1,3,male,20.0,1,1,2653,15.7417,C,Mr,3,Small,OTHER,Very Low,Unknown
+624,0,3,male,21.0,0,0,350029,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+625,0,3,male,21.0,0,0,54636,16.1,S,Mr,1,Solo,OTHER,Very Low,Unknown
+626,0,1,male,61.0,0,0,36963,32.3208,S,Mr,1,Solo,OTHER,Very Low,D
+627,0,2,male,57.0,0,0,219533,12.35,Q,Officer,1,Solo,OTHER,Very Low,Unknown
+628,1,1,female,21.0,0,0,13502,77.9583,S,Miss,1,Solo,OTHER,Low,D
+629,0,3,male,26.0,0,0,349224,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+630,0,3,male,,0,0,334912,7.7333,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+631,1,1,male,80.0,0,0,27042,30.0,S,Mr,1,Solo,OTHER,Very Low,A
+632,0,3,male,51.0,0,0,347743,7.0542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+633,1,1,male,32.0,0,0,13214,30.5,C,Officer,1,Solo,OTHER,Very Low,B
+634,0,1,male,,0,0,112052,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+635,0,3,female,9.0,3,2,347088,27.9,S,Miss,6,Large,347088,Very Low,Unknown
+636,1,2,female,28.0,0,0,237668,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+637,0,3,male,32.0,0,0,STON/O 2. 3101292,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+638,0,2,male,31.0,1,1,C.A. 31921,26.25,S,Mr,3,Small,OTHER,Very Low,Unknown
+639,0,3,female,41.0,0,5,3101295,39.6875,S,Mrs,6,Large,3101295,Very Low,Unknown
+640,0,3,male,,1,0,376564,16.1,S,Mr,2,Small,OTHER,Very Low,Unknown
+641,0,3,male,20.0,0,0,350050,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+642,1,1,female,24.0,0,0,PC 17477,69.3,C,Miss,1,Solo,OTHER,Low,B
+643,0,3,female,2.0,3,2,347088,27.9,S,Miss,6,Large,347088,Very Low,Unknown
+644,1,3,male,,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+645,1,3,female,0.75,2,1,2666,19.2583,C,Miss,4,Small,2666,Very Low,Unknown
+646,1,1,male,48.0,1,0,PC 17572,76.7292,C,Mr,2,Small,OTHER,Low,D
+647,0,3,male,19.0,0,0,349231,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+648,1,1,male,56.0,0,0,13213,35.5,C,Officer,1,Solo,OTHER,Very Low,A
+649,0,3,male,,0,0,S.O./P.P. 751,7.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+650,1,3,female,23.0,0,0,CA. 2314,7.55,S,Miss,1,Solo,OTHER,Very Low,Unknown
+651,0,3,male,,0,0,349221,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+652,1,2,female,18.0,0,1,231919,23.0,S,Miss,2,Small,OTHER,Very Low,Unknown
+653,0,3,male,21.0,0,0,8475,8.4333,S,Mr,1,Solo,OTHER,Very Low,Unknown
+654,1,3,female,,0,0,330919,7.8292,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+655,0,3,female,18.0,0,0,365226,6.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+656,0,2,male,24.0,2,0,S.O.C. 14879,73.5,S,Mr,3,Small,S.O.C. 14879,Low,Unknown
+657,0,3,male,,0,0,349223,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+658,0,3,female,32.0,1,1,364849,15.5,Q,Mrs,3,Small,OTHER,Very Low,Unknown
+659,0,2,male,23.0,0,0,29751,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+660,0,1,male,58.0,0,2,35273,113.275,C,Mr,3,Small,OTHER,Medium,D
+661,1,1,male,50.0,2,0,PC 17611,133.65,S,Officer,3,Small,OTHER,Medium,Unknown
+662,0,3,male,40.0,0,0,2623,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+663,0,1,male,47.0,0,0,5727,25.5875,S,Mr,1,Solo,OTHER,Very Low,E
+664,0,3,male,36.0,0,0,349210,7.4958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+665,1,3,male,20.0,1,0,STON/O 2. 3101285,7.925,S,Mr,2,Small,OTHER,Very Low,Unknown
+666,0,2,male,32.0,2,0,S.O.C. 14879,73.5,S,Mr,3,Small,S.O.C. 14879,Low,Unknown
+667,0,2,male,25.0,0,0,234686,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+668,0,3,male,,0,0,312993,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+669,0,3,male,43.0,0,0,A/5 3536,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+670,1,1,female,,1,0,19996,52.0,S,Mrs,2,Small,OTHER,Low,C
+671,1,2,female,40.0,1,1,29750,39.0,S,Mrs,3,Small,OTHER,Very Low,Unknown
+672,0,1,male,31.0,1,0,F.C. 12750,52.0,S,Mr,2,Small,OTHER,Low,B
+673,0,2,male,70.0,0,0,C.A. 24580,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+674,1,2,male,31.0,0,0,244270,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+675,0,2,male,,0,0,239856,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+676,0,3,male,18.0,0,0,349912,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+677,0,3,male,24.5,0,0,342826,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+678,1,3,female,18.0,0,0,4138,9.8417,S,Miss,1,Solo,OTHER,Very Low,Unknown
+679,0,3,female,43.0,1,6,CA 2144,46.9,S,Mrs,8,Large,CA 2144,Very Low,Unknown
+680,1,1,male,36.0,0,1,PC 17755,512.3292,C,Mr,2,Small,OTHER,Very High,B
+681,0,3,female,,0,0,330935,8.1375,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+682,1,1,male,27.0,0,0,PC 17572,76.7292,C,Mr,1,Solo,OTHER,Low,D
+683,0,3,male,20.0,0,0,6563,9.225,S,Mr,1,Solo,OTHER,Very Low,Unknown
+684,0,3,male,14.0,5,2,CA 2144,46.9,S,Mr,8,Large,CA 2144,Very Low,Unknown
+685,0,2,male,60.0,1,1,29750,39.0,S,Mr,3,Small,OTHER,Very Low,Unknown
+686,0,2,male,25.0,1,2,SC/Paris 2123,41.5792,C,Mr,4,Small,OTHER,Very Low,Unknown
+687,0,3,male,14.0,4,1,3101295,39.6875,S,Mr,6,Large,3101295,Very Low,Unknown
+688,0,3,male,19.0,0,0,349228,10.1708,S,Mr,1,Solo,OTHER,Very Low,Unknown
+689,0,3,male,18.0,0,0,350036,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+690,1,1,female,15.0,0,1,24160,211.3375,S,Miss,2,Small,OTHER,High,B
+691,1,1,male,31.0,1,0,17474,57.0,S,Mr,2,Small,OTHER,Low,B
+692,1,3,female,4.0,0,1,349256,13.4167,C,Miss,2,Small,OTHER,Very Low,Unknown
+693,1,3,male,,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+694,0,3,male,25.0,0,0,2672,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+695,0,1,male,60.0,0,0,113800,26.55,S,Officer,1,Solo,OTHER,Very Low,Unknown
+696,0,2,male,52.0,0,0,248731,13.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+697,0,3,male,44.0,0,0,363592,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+698,1,3,female,,0,0,35852,7.7333,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+699,0,1,male,49.0,1,1,17421,110.8833,C,Mr,3,Small,17421,Medium,C
+700,0,3,male,42.0,0,0,348121,7.65,S,Mr,1,Solo,OTHER,Very Low,F
+701,1,1,female,18.0,1,0,PC 17757,227.525,C,Mrs,2,Small,PC 17757,High,C
+702,1,1,male,35.0,0,0,PC 17475,26.2875,S,Mr,1,Solo,OTHER,Very Low,E
+703,0,3,female,18.0,0,1,2691,14.4542,C,Miss,2,Small,OTHER,Very Low,Unknown
+704,0,3,male,25.0,0,0,36864,7.7417,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+705,0,3,male,26.0,1,0,350025,7.8542,S,Mr,2,Small,OTHER,Very Low,Unknown
+706,0,2,male,39.0,0,0,250655,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+707,1,2,female,45.0,0,0,223596,13.5,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+708,1,1,male,42.0,0,0,PC 17476,26.2875,S,Mr,1,Solo,OTHER,Very Low,E
+709,1,1,female,22.0,0,0,113781,151.55,S,Miss,1,Solo,113781,Medium,Unknown
+710,1,3,male,,1,1,2661,15.2458,C,Master,3,Small,OTHER,Very Low,Unknown
+711,1,1,female,24.0,0,0,PC 17482,49.5042,C,Miss,1,Solo,OTHER,Very Low,C
+712,0,1,male,,0,0,113028,26.55,S,Mr,1,Solo,OTHER,Very Low,C
+713,1,1,male,48.0,1,0,19996,52.0,S,Mr,2,Small,OTHER,Low,C
+714,0,3,male,29.0,0,0,7545,9.4833,S,Mr,1,Solo,OTHER,Very Low,Unknown
+715,0,2,male,52.0,0,0,250647,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+716,0,3,male,19.0,0,0,348124,7.65,S,Mr,1,Solo,OTHER,Very Low,F
+717,1,1,female,38.0,0,0,PC 17757,227.525,C,Miss,1,Solo,PC 17757,High,C
+718,1,2,female,27.0,0,0,34218,10.5,S,Miss,1,Solo,OTHER,Very Low,E
+719,0,3,male,,0,0,36568,15.5,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+720,0,3,male,33.0,0,0,347062,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+721,1,2,female,6.0,0,1,248727,33.0,S,Miss,2,Small,OTHER,Very Low,Unknown
+722,0,3,male,17.0,1,0,350048,7.0542,S,Mr,2,Small,OTHER,Very Low,Unknown
+723,0,2,male,34.0,0,0,12233,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+724,0,2,male,50.0,0,0,250643,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+725,1,1,male,27.0,1,0,113806,53.1,S,Mr,2,Small,OTHER,Low,E
+726,0,3,male,20.0,0,0,315094,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+727,1,2,female,30.0,3,0,31027,21.0,S,Mrs,4,Small,OTHER,Very Low,Unknown
+728,1,3,female,,0,0,36866,7.7375,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+729,0,2,male,25.0,1,0,236853,26.0,S,Mr,2,Small,OTHER,Very Low,Unknown
+730,0,3,female,25.0,1,0,STON/O2. 3101271,7.925,S,Miss,2,Small,OTHER,Very Low,Unknown
+731,1,1,female,29.0,0,0,24160,211.3375,S,Miss,1,Solo,OTHER,High,B
+732,0,3,male,11.0,0,0,2699,18.7875,C,Mr,1,Solo,OTHER,Very Low,Unknown
+733,0,2,male,,0,0,239855,0.0,S,Mr,1,Solo,OTHER,Zero,Unknown
+734,0,2,male,23.0,0,0,28425,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+735,0,2,male,23.0,0,0,233639,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+736,0,3,male,28.5,0,0,54636,16.1,S,Mr,1,Solo,OTHER,Very Low,Unknown
+737,0,3,female,48.0,1,3,W./C. 6608,34.375,S,Mrs,5,Large,W./C. 6608,Very Low,Unknown
+738,1,1,male,35.0,0,0,PC 17755,512.3292,C,Mr,1,Solo,OTHER,Very High,B
+739,0,3,male,,0,0,349201,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+740,0,3,male,,0,0,349218,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+741,1,1,male,,0,0,16988,30.0,S,Mr,1,Solo,OTHER,Very Low,D
+742,0,1,male,36.0,1,0,19877,78.85,S,Mr,2,Small,OTHER,Low,C
+743,1,1,female,21.0,2,2,PC 17608,262.375,C,Miss,5,Large,OTHER,High,B
+744,0,3,male,24.0,1,0,376566,16.1,S,Mr,2,Small,OTHER,Very Low,Unknown
+745,1,3,male,31.0,0,0,STON/O 2. 3101288,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+746,0,1,male,70.0,1,1,WE/P 5735,71.0,S,Officer,3,Small,OTHER,Low,B
+747,0,3,male,16.0,1,1,C.A. 2673,20.25,S,Mr,3,Small,OTHER,Very Low,Unknown
+748,1,2,female,30.0,0,0,250648,13.0,S,Miss,1,Solo,OTHER,Very Low,Unknown
+749,0,1,male,19.0,1,0,113773,53.1,S,Mr,2,Small,OTHER,Low,D
+750,0,3,male,31.0,0,0,335097,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+751,1,2,female,4.0,1,1,29103,23.0,S,Miss,3,Small,OTHER,Very Low,Unknown
+752,1,3,male,6.0,0,1,392096,12.475,S,Master,2,Small,OTHER,Very Low,E
+753,0,3,male,33.0,0,0,345780,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+754,0,3,male,23.0,0,0,349204,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+755,1,2,female,48.0,1,2,220845,65.0,S,Mrs,4,Small,OTHER,Low,Unknown
+756,1,2,male,0.67,1,1,250649,14.5,S,Master,3,Small,OTHER,Very Low,Unknown
+757,0,3,male,28.0,0,0,350042,7.7958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+758,0,2,male,18.0,0,0,29108,11.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+759,0,3,male,34.0,0,0,363294,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+760,1,1,female,33.0,0,0,110152,86.5,S,Royalty,1,Solo,OTHER,Low,B
+761,0,3,male,,0,0,358585,14.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+762,0,3,male,41.0,0,0,SOTON/O2 3101272,7.125,S,Mr,1,Solo,OTHER,Very Low,Unknown
+763,1,3,male,20.0,0,0,2663,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+764,1,1,female,36.0,1,2,113760,120.0,S,Mrs,4,Small,113760,Medium,B
+765,0,3,male,16.0,0,0,347074,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+766,1,1,female,51.0,1,0,13502,77.9583,S,Mrs,2,Small,OTHER,Low,D
+767,0,1,male,,0,0,112379,39.6,C,Officer,1,Solo,OTHER,Very Low,Unknown
+768,0,3,female,30.5,0,0,364850,7.75,Q,Miss,1,Solo,OTHER,Very Low,Unknown
+769,0,3,male,,1,0,371110,24.15,Q,Mr,2,Small,OTHER,Very Low,Unknown
+770,0,3,male,32.0,0,0,8471,8.3625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+771,0,3,male,24.0,0,0,345781,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+772,0,3,male,48.0,0,0,350047,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+773,0,2,female,57.0,0,0,S.O./P.P. 3,10.5,S,Mrs,1,Solo,OTHER,Very Low,E
+774,0,3,male,,0,0,2674,7.225,C,Mr,1,Solo,OTHER,Very Low,Unknown
+775,1,2,female,54.0,1,3,29105,23.0,S,Mrs,5,Large,OTHER,Very Low,Unknown
+776,0,3,male,18.0,0,0,347078,7.75,S,Mr,1,Solo,OTHER,Very Low,Unknown
+777,0,3,male,,0,0,383121,7.75,Q,Mr,1,Solo,OTHER,Very Low,F
+778,1,3,female,5.0,0,0,364516,12.475,S,Miss,1,Solo,OTHER,Very Low,Unknown
+779,0,3,male,,0,0,36865,7.7375,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+780,1,1,female,43.0,0,1,24160,211.3375,S,Mrs,2,Small,OTHER,High,B
+781,1,3,female,13.0,0,0,2687,7.2292,C,Miss,1,Solo,OTHER,Very Low,Unknown
+782,1,1,female,17.0,1,0,17474,57.0,S,Mrs,2,Small,OTHER,Low,B
+783,0,1,male,29.0,0,0,113501,30.0,S,Mr,1,Solo,OTHER,Very Low,D
+784,0,3,male,,1,2,W./C. 6607,23.45,S,Mr,4,Small,OTHER,Very Low,Unknown
+785,0,3,male,25.0,0,0,SOTON/O.Q. 3101312,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+786,0,3,male,25.0,0,0,374887,7.25,S,Mr,1,Solo,OTHER,Very Low,Unknown
+787,1,3,female,18.0,0,0,3101265,7.4958,S,Miss,1,Solo,OTHER,Very Low,Unknown
+788,0,3,male,8.0,4,1,382652,29.125,Q,Master,6,Large,382652,Very Low,Unknown
+789,1,3,male,1.0,1,2,C.A. 2315,20.575,S,Master,4,Small,OTHER,Very Low,Unknown
+790,0,1,male,46.0,0,0,PC 17593,79.2,C,Mr,1,Solo,OTHER,Low,B
+791,0,3,male,,0,0,12460,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+792,0,2,male,16.0,0,0,239865,26.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+793,0,3,female,,8,2,CA. 2343,69.55,S,Miss,11,Large,CA. 2343,Low,Unknown
+794,0,1,male,,0,0,PC 17600,30.6958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+795,0,3,male,25.0,0,0,349203,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+796,0,2,male,39.0,0,0,28213,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+797,1,1,female,49.0,0,0,17465,25.9292,S,Officer,1,Solo,OTHER,Very Low,D
+798,1,3,female,31.0,0,0,349244,8.6833,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+799,0,3,male,30.0,0,0,2685,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+800,0,3,female,30.0,1,1,345773,24.15,S,Mrs,3,Small,OTHER,Very Low,Unknown
+801,0,2,male,34.0,0,0,250647,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+802,1,2,female,31.0,1,1,C.A. 31921,26.25,S,Mrs,3,Small,OTHER,Very Low,Unknown
+803,1,1,male,11.0,1,2,113760,120.0,S,Master,4,Small,113760,Medium,B
+804,1,3,male,0.42,0,1,2625,8.5167,C,Master,2,Small,OTHER,Very Low,Unknown
+805,1,3,male,27.0,0,0,347089,6.975,S,Mr,1,Solo,OTHER,Very Low,Unknown
+806,0,3,male,31.0,0,0,347063,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+807,0,1,male,39.0,0,0,112050,0.0,S,Mr,1,Solo,OTHER,Zero,A
+808,0,3,female,18.0,0,0,347087,7.775,S,Miss,1,Solo,OTHER,Very Low,Unknown
+809,0,2,male,39.0,0,0,248723,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+810,1,1,female,33.0,1,0,113806,53.1,S,Mrs,2,Small,OTHER,Low,E
+811,0,3,male,26.0,0,0,3474,7.8875,S,Mr,1,Solo,OTHER,Very Low,Unknown
+812,0,3,male,39.0,0,0,A/4 48871,24.15,S,Mr,1,Solo,OTHER,Very Low,Unknown
+813,0,2,male,35.0,0,0,28206,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+814,0,3,female,6.0,4,2,347082,31.275,S,Miss,7,Large,347082,Very Low,Unknown
+815,0,3,male,30.5,0,0,364499,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+816,0,1,male,,0,0,112058,0.0,S,Mr,1,Solo,OTHER,Zero,B
+817,0,3,female,23.0,0,0,STON/O2. 3101290,7.925,S,Miss,1,Solo,OTHER,Very Low,Unknown
+818,0,2,male,31.0,1,1,S.C./PARIS 2079,37.0042,C,Mr,3,Small,OTHER,Very Low,Unknown
+819,0,3,male,43.0,0,0,C 7075,6.45,S,Mr,1,Solo,OTHER,Very Low,Unknown
+820,0,3,male,10.0,3,2,347088,27.9,S,Master,6,Large,347088,Very Low,Unknown
+821,1,1,female,52.0,1,1,12749,93.5,S,Mrs,3,Small,OTHER,Low,B
+822,1,3,male,27.0,0,0,315098,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+823,0,1,male,38.0,0,0,19972,0.0,S,Royalty,1,Solo,OTHER,Zero,Unknown
+824,1,3,female,27.0,0,1,392096,12.475,S,Mrs,2,Small,OTHER,Very Low,E
+825,0,3,male,2.0,4,1,3101295,39.6875,S,Master,6,Large,3101295,Very Low,Unknown
+826,0,3,male,,0,0,368323,6.95,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+827,0,3,male,,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+828,1,2,male,1.0,0,2,S.C./PARIS 2079,37.0042,C,Master,3,Small,OTHER,Very Low,Unknown
+829,1,3,male,,0,0,367228,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
+830,1,1,female,62.0,0,0,113572,80.0,,Mrs,1,Solo,OTHER,Low,B
+831,1,3,female,15.0,1,0,2659,14.4542,C,Mrs,2,Small,OTHER,Very Low,Unknown
+832,1,2,male,0.83,1,1,29106,18.75,S,Master,3,Small,OTHER,Very Low,Unknown
+833,0,3,male,,0,0,2671,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+834,0,3,male,23.0,0,0,347468,7.8542,S,Mr,1,Solo,OTHER,Very Low,Unknown
+835,0,3,male,18.0,0,0,2223,8.3,S,Mr,1,Solo,OTHER,Very Low,Unknown
+836,1,1,female,39.0,1,1,PC 17756,83.1583,C,Miss,3,Small,OTHER,Low,E
+837,0,3,male,21.0,0,0,315097,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+838,0,3,male,,0,0,392092,8.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+839,1,3,male,32.0,0,0,1601,56.4958,S,Mr,1,Solo,1601,Low,Unknown
+840,1,1,male,,0,0,11774,29.7,C,Mr,1,Solo,OTHER,Very Low,C
+841,0,3,male,20.0,0,0,SOTON/O2 3101287,7.925,S,Mr,1,Solo,OTHER,Very Low,Unknown
+842,0,2,male,16.0,0,0,S.O./P.P. 3,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+843,1,1,female,30.0,0,0,113798,31.0,C,Miss,1,Solo,OTHER,Very Low,Unknown
+844,0,3,male,34.5,0,0,2683,6.4375,C,Mr,1,Solo,OTHER,Very Low,Unknown
+845,0,3,male,17.0,0,0,315090,8.6625,S,Mr,1,Solo,OTHER,Very Low,Unknown
+846,0,3,male,42.0,0,0,C.A. 5547,7.55,S,Mr,1,Solo,OTHER,Very Low,Unknown
+847,0,3,male,,8,2,CA. 2343,69.55,S,Mr,11,Large,CA. 2343,Low,Unknown
+848,0,3,male,35.0,0,0,349213,7.8958,C,Mr,1,Solo,OTHER,Very Low,Unknown
+849,0,2,male,28.0,0,1,248727,33.0,S,Officer,2,Small,OTHER,Very Low,Unknown
+850,1,1,female,,1,0,17453,89.1042,C,Mrs,2,Small,OTHER,Low,C
+851,0,3,male,4.0,4,2,347082,31.275,S,Master,7,Large,347082,Very Low,Unknown
+852,0,3,male,74.0,0,0,347060,7.775,S,Mr,1,Solo,OTHER,Very Low,Unknown
+853,0,3,female,9.0,1,1,2678,15.2458,C,Miss,3,Small,OTHER,Very Low,Unknown
+854,1,1,female,16.0,0,1,PC 17592,39.4,S,Miss,2,Small,OTHER,Very Low,D
+855,0,2,female,44.0,1,0,244252,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+856,1,3,female,18.0,0,1,392091,9.35,S,Mrs,2,Small,OTHER,Very Low,Unknown
+857,1,1,female,45.0,1,1,36928,164.8667,S,Mrs,3,Small,OTHER,Medium,Unknown
+858,1,1,male,51.0,0,0,113055,26.55,S,Mr,1,Solo,OTHER,Very Low,E
+859,1,3,female,24.0,0,3,2666,19.2583,C,Mrs,4,Small,2666,Very Low,Unknown
+860,0,3,male,,0,0,2629,7.2292,C,Mr,1,Solo,OTHER,Very Low,Unknown
+861,0,3,male,41.0,2,0,350026,14.1083,S,Mr,3,Small,OTHER,Very Low,Unknown
+862,0,2,male,21.0,1,0,28134,11.5,S,Mr,2,Small,OTHER,Very Low,Unknown
+863,1,1,female,48.0,0,0,17466,25.9292,S,Mrs,1,Solo,OTHER,Very Low,D
+864,0,3,female,,8,2,CA. 2343,69.55,S,Miss,11,Large,CA. 2343,Low,Unknown
+865,0,2,male,24.0,0,0,233866,13.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+866,1,2,female,42.0,0,0,236852,13.0,S,Mrs,1,Solo,OTHER,Very Low,Unknown
+867,1,2,female,27.0,1,0,SC/PARIS 2149,13.8583,C,Miss,2,Small,OTHER,Very Low,Unknown
+868,0,1,male,31.0,0,0,PC 17590,50.4958,S,Mr,1,Solo,OTHER,Low,A
+869,0,3,male,,0,0,345777,9.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+870,1,3,male,4.0,1,1,347742,11.1333,S,Master,3,Small,OTHER,Very Low,Unknown
+871,0,3,male,26.0,0,0,349248,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+872,1,1,female,47.0,1,1,11751,52.5542,S,Mrs,3,Small,OTHER,Low,D
+873,0,1,male,33.0,0,0,695,5.0,S,Mr,1,Solo,OTHER,Very Low,B
+874,0,3,male,47.0,0,0,345765,9.0,S,Mr,1,Solo,OTHER,Very Low,Unknown
+875,1,2,female,28.0,1,0,P/PP 3381,24.0,C,Mrs,2,Small,OTHER,Very Low,Unknown
+876,1,3,female,15.0,0,0,2667,7.225,C,Miss,1,Solo,OTHER,Very Low,Unknown
+877,0,3,male,20.0,0,0,7534,9.8458,S,Mr,1,Solo,OTHER,Very Low,Unknown
+878,0,3,male,19.0,0,0,349212,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+879,0,3,male,,0,0,349217,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+880,1,1,female,56.0,0,1,11767,83.1583,C,Mrs,2,Small,OTHER,Low,C
+881,1,2,female,25.0,0,1,230433,26.0,S,Mrs,2,Small,OTHER,Very Low,Unknown
+882,0,3,male,33.0,0,0,349257,7.8958,S,Mr,1,Solo,OTHER,Very Low,Unknown
+883,0,3,female,22.0,0,0,7552,10.5167,S,Miss,1,Solo,OTHER,Very Low,Unknown
+884,0,2,male,28.0,0,0,C.A./SOTON 34068,10.5,S,Mr,1,Solo,OTHER,Very Low,Unknown
+885,0,3,male,25.0,0,0,SOTON/OQ 392076,7.05,S,Mr,1,Solo,OTHER,Very Low,Unknown
+886,0,3,female,39.0,0,5,382652,29.125,Q,Mrs,6,Large,382652,Very Low,Unknown
+887,0,2,male,27.0,0,0,211536,13.0,S,Officer,1,Solo,OTHER,Very Low,Unknown
+888,1,1,female,19.0,0,0,112053,30.0,S,Miss,1,Solo,OTHER,Very Low,B
+889,0,3,female,,1,2,W./C. 6607,23.45,S,Miss,4,Small,OTHER,Very Low,Unknown
+890,1,1,male,26.0,0,0,111369,30.0,C,Mr,1,Solo,OTHER,Very Low,C
+891,0,3,male,32.0,0,0,370376,7.75,Q,Mr,1,Solo,OTHER,Very Low,Unknown
