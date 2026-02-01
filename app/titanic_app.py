@@ -5,26 +5,23 @@ import sys
 import os
 from pathlib import Path
 
-
-st.write("CWD:", os.getcwd())
-st.write("Files:", os.listdir("."))
+# --- RUN LOCALLY ---
 # Add the parent folder to sys.path
 # sys.path.append(os.path.abspath(os.path.join('..')))
 # Add project root to sys.path
+# MODEL_PATH = "../models/pipeline.pkl"
+
+# --- RUN ON STREAMLIT CLOUD ---
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-
-st.write("CWD:", os.getcwd())
-st.write("Files:", os.listdir("."))
-import src.feature_engineering as fen
-
-# Path to the project root (CWD)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = PROJECT_ROOT / "models" / "pipeline.pkl"
+
+import src.feature_engineering as fen
 
 # Load model
 @st.cache_resource
 def load_model():
-    return joblib.load(MODEL_PATH) # "../models/pipeline.pkl")
+    return joblib.load(MODEL_PATH)
 
 model = load_model()
 
