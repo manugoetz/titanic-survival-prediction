@@ -17,10 +17,14 @@ st.write("CWD:", os.getcwd())
 st.write("Files:", os.listdir("."))
 import src.feature_engineering as fen
 
+# Path to the project root (CWD)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+MODEL_PATH = PROJECT_ROOT / "models" / "pipeline.pkl"
+
 # Load model
 @st.cache_resource
 def load_model():
-    return joblib.load("../models/pipeline.pkl")
+    return joblib.load(MODEL_PATH) # "../models/pipeline.pkl")
 
 model = load_model()
 
