@@ -51,7 +51,7 @@ def extract_deck(df, cabin_col="Cabin"):
     
     # Extract first letter if not null, else 'Unknown'
     df["Deck"] = df[cabin_col].apply(lambda x: str(x)[0] if pd.notnull(x) else "Unknown")
-    df.drop("Cabin", axis=1, inplace=True)
+    # df.drop("Cabin", axis=1, inplace=True)
     
     return df
 
@@ -68,5 +68,16 @@ def bin_fare(df):
 
 def map_ticket(df, threshold=3):
     ticket_counts = df["Ticket"].value_counts()
-    df["Ticket"] = df["Ticket"].apply(lambda x: x if ticket_counts[x] > threshold else "OTHER")
+    df["TicketGroupSize"] = df["Ticket"].apply(lambda x: x if ticket_counts[x] > threshold else "OTHER")
+    return df
+
+def extract_num_cabins(df, cabin_col="Cabin"):
+    """
+    Creates a new column 'NumCabins' counting how many cabins a passenger had.
+    """
+    df = df.copy()
+    
+    # NaN → 0 cabins, otherwise count number of cabins (split by space)
+    df["NumCabins"] = df[cabin_col].fillna("").apply(lambda x: len(x.split()) if x else 0)
+    
     return df
