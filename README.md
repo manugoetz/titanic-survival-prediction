@@ -110,7 +110,7 @@ An interactive app allows users to **input passenger information** and receive a
 - Input features: Age, Sex, Pclass, SibSp, Parch, Fare, Embarked  
 - Real-time predictions based on the trained model  
 
-App can be run locally or deployed online.
+App can be run locally or deployed online.  
 https://titanic-survival-prediction-manugoetz.streamlit.app/
 
 ---
