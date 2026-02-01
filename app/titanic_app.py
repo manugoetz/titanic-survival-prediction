@@ -3,7 +3,9 @@ import pandas as pd
 import joblib
 import sys
 import os
-import Path
+from pathlib import Path
+
+
 st.write("CWD:", os.getcwd())
 st.write("Files:", os.listdir("."))
 # Add the parent folder to sys.path
