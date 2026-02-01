@@ -317,3 +317,108 @@ def plot_feature_survival_hist(
     g.fig.subplots_adjust(top=0.85)
 
     plt.show()
+
+def plot_hist_count_and_percent(
+    df,
+    x,
+    hue="Survived",
+    bins=20,
+    palette={0: "red", 1: "green"},
+    title_prefix=""
+):
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharex=True)
+
+    # -------- Count plot --------
+    sns.histplot(
+        data=df,
+        x=x,
+        hue=hue,
+        multiple="stack",
+        bins=bins,
+        palette=palette,
+        alpha=0.7,
+        ax=axes[0]
+    )
+    axes[0].set_title(f"{title_prefix}{x} Distribution by {hue} (Count)")
+    axes[0].set_xlabel(x)
+    axes[0].set_ylabel("Count")
+
+    # -------- Percent plot --------
+    sns.histplot(
+        data=df,
+        x=x,
+        hue=hue,
+        multiple="fill",     # percent per bin
+        bins=bins,
+        palette=palette,
+        alpha=0.7,
+        ax=axes[1]
+    )
+    axes[1].set_title(f"{title_prefix}{x} Distribution by {hue} (Percent)")
+    axes[1].set_xlabel(x)
+    axes[1].set_ylabel("Proportion")
+
+    # Global title
+    fig.suptitle(
+        f"{x} vs {hue}: Count and Percentage Distribution",
+        fontsize=16,
+        y=1.05
+    )
+
+    plt.tight_layout()
+    plt.show()
+
+def plot_cat_feature_survival(df, target="Survived", bins_col="FareBinned"):
+    """
+    Plots two subplots for FareBinned:
+    1. Count per bin
+    2. Survival rate per bin
+    """
+
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+
+    # 1️⃣ Count per bin
+    counts = df[bins_col].value_counts().sort_index()
+    bars = sns.barplot(
+        x=counts.index.astype(str),
+        y=counts.values,
+        hue=counts.index.astype(str),
+        palette="tab10",
+        ax=axes[0]
+    )
+    axes[0].set_title(f"Passenger count per {bins_col}")
+    axes[0].set_xlabel(bins_col)
+    axes[0].set_ylabel("Count")
+    for bar, value in zip(bars.patches, counts.values):
+        axes[0].text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.5,
+            f"{value}",
+            ha="center",
+            va="bottom"
+        )
+
+    # 2️⃣ Survival rate per bin
+    rates = df.groupby(bins_col, observed=True)[target].mean().sort_index()
+    bars = sns.barplot(
+        x=rates.index.astype(str),
+        y=rates.values,
+        hue=counts.index.astype(str),
+        palette="tab10",
+        ax=axes[1]
+    )
+    axes[1].set_title(f"Survival rate per {bins_col}")
+    axes[1].set_xlabel(bins_col)
+    axes[1].set_ylabel("Survival probability")
+    axes[1].set_ylim(0, 1.0)
+    for bar, value in zip(bars.patches, rates.values):
+        axes[1].text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.02,
+            f"{value:.2f}",
+            ha="center",
+            va="bottom"
+        )
+
+    plt.tight_layout()
+    plt.show()
