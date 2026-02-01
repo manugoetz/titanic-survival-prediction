@@ -5,7 +5,7 @@ import sys
 import os
 
 # Add the parent folder to sys.path
-sys.path.append(os.path.abspath(os.path.join('..')))
+# sys.path.append(os.path.abspath(os.path.join('..')))
 import src.feature_engineering as fen
 
 # Load model
