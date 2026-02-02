@@ -102,6 +102,13 @@ All transformations are implemented in **modular scripts** and applied consisten
 - Cross-validation used for performance assessment  
 - Best model selected based on accuracy and F1-score
 
+| Model               | CV Accuracy | F1-Score |
+| ------------------- | ----------- | -------- |
+| Logistic Regression | 0.80        | 0.77     |
+| Random Forest       | 0.82        | 0.81     |
+| Gradient Boosting   | 0.84        | 0.83     |
+
+
 ---
 
 ## Streamlit App
@@ -117,6 +124,15 @@ https://titanic-survival-prediction-manugoetz.streamlit.app/
 ---
 
 ## How to Run
+
+**Note:** Raw data files are not included in this repository due to Kaggle licensing.
+
+### How to run the notebooks
+
+1. Download the dataset from Kaggle.
+2. Place `train.csv` and `test.csv` in `data/raw/`.
+3. Run `01_feature_engineering.ipynb` → this will save processed data to `data/processed/`.
+4. Run `02_modeling.ipynb` → uses the processed data.
 
 ### Clone the repo
 ```bash
